@@ -1,0 +1,39 @@
+CRITICAL - 2025-04-04 00:52:52 --> Invalid file: error_view.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_view.php')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('error_view', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1746): view('error_view', Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->reset_password()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-04 00:54:26 --> Invalid file: error_view.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_view.php')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('error_view', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1746): view('error_view', Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->reset_password()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-04 01:08:36 --> hash(): Unknown hashing algorithm: sha257
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash(): Unknown...', 'H:\\My Drive\\fas...', 1762, Array)
+#1 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1762): hash('sha257', '')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->update_password()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+CRITICAL - 2025-04-04 01:25:15 --> Invalid file: error_view.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error_view.php')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('error_view', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1750): view('error_view', Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->reset_password()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}

@@ -1,0 +1,159 @@
+CRITICAL - 2025-02-27 06:24:42 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tampilankaryawan.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 62, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tampilankaryawa...', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(641): view('tampilankaryawa...', Array)
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-02-27 06:25:34 --> Invalid file: restoran.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('restoran.php')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('restoran', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(545): view('restoran')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->restoran()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-02-27 06:27:23 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tampilankaryawan.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 62, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tampilankaryawa...', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(641): view('tampilankaryawa...', Array)
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-02-27 06:27:27 --> Invalid file: laporan_transaksi.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_transak...')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('laporan_transak...', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(563): view('laporan_transak...')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-02-27 06:42:09 --> Invalid file: laporan_transaksi.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_transak...')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('laporan_transak...', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(563): view('laporan_transak...')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-02-27 06:42:13 --> Invalid file: laporan_keuangan.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_keuanga...')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('laporan_keuanga...', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(569): view('laporan_keuanga...')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->laporan_keuangan()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-02-27 06:42:21 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tampilankaryawan.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 62, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tampilankaryawa...', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(641): view('tampilankaryawa...', Array)
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-02-27 06:57:40 --> Invalid file: restoran.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('restoran.php')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('restoran', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(545): view('restoran')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->restoran()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-02-27 06:57:48 --> Invalid file: laporan_transaksi.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_transak...')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('laporan_transak...', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(563): view('laporan_transak...')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-02-27 06:57:53 --> Invalid file: laporan_keuangan.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_keuanga...')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('laporan_keuanga...', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(569): view('laporan_keuanga...')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->laporan_keuangan()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-02-27 07:01:13 --> Invalid file: restoran.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('restoran.php')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('restoran', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(545): view('restoran')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->restoran()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-02-27 07:05:32 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tampilankaryawan.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 62, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tampilankaryawa...', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(641): view('tampilankaryawa...', Array)
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+ERROR - 2025-02-27 07:10:15 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-02-27 07:10:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\fastfood\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\fastfood\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\fastfood\app\Models\M_belajar.php(23): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 D:\fastfood\app\Controllers\Home.php(132): App\Models\M_belajar->getWhere('user', Array)
+#4 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#9 {main}
+ERROR - 2025-02-27 07:18:27 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ )
+ERROR - 2025-02-27 07:18:37 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ )

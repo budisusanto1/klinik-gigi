@@ -1,0 +1,105 @@
+ERROR - 2025-04-09 09:05:15 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:05:15 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:05:25 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:05:25 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:09:32 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:09:32 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:09:35 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:09:35 --> Table 'klinik_gigi.orders' doesn't exist
+CRITICAL - 2025-04-09 09:09:35 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(55): App\Models\M_belajar->getLaporanKeuangan()
+#1 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#2 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-09 09:09:36 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:09:37 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:09:50 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:09:50 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:09:53 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:09:53 --> Table 'klinik_gigi.orders' doesn't exist
+CRITICAL - 2025-04-09 09:09:53 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(55): App\Models\M_belajar->getLaporanKeuangan()
+#1 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#2 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-09 09:10:13 --> Table 'klinik_gigi.log_activity' doesn't exist
+CRITICAL - 2025-04-09 09:10:13 --> Call to undefined method App\Models\M_belajar::getLaporanKeuangan
+#0 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(55): CodeIgniter\Model->__call('getLaporanKeuan...', Array)
+#1 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#2 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-09 09:11:32 --> Table 'klinik_gigi.log_activity' doesn't exist
+CRITICAL - 2025-04-09 09:11:33 --> Invalid file: dashboard_admin.php
+#0 H:\My Drive\klinlik\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard_admin...')
+#1 H:\My Drive\klinlik\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_admin', Array, true)
+#2 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(67): view('dashboard_admin', Array)
+#3 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#4 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+ERROR - 2025-04-09 09:13:39 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:14:59 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:15:12 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:15:15 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:20:20 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:26:51 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:26:53 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:26:56 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:27:05 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:28:14 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:34:04 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:35:54 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:35:54 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:36:02 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:36:03 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:36:04 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:52:14 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:52:19 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:52:27 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:56:51 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:56:56 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:57:42 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:57:46 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 09:57:51 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 10:00:07 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 10:01:00 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 10:01:08 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 10:01:09 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-09 23:31:00 --> Table 'klinik_gigi.driver' doesn't exist
+CRITICAL - 2025-04-09 23:31:00 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1153): App\Models\M_belajar->joinRPL12('driver', 'user', 'driver.id_user ...', 'id_user')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->dokter()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-09 23:36:21 --> Table 'klinik_gigi.driver' doesn't exist
+CRITICAL - 2025-04-09 23:36:21 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1153): App\Models\M_belajar->joinRPL12('driver', 'user', 'driver.id_user ...', 'id_user')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->dokter()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-09 23:36:44 --> Table 'klinik_gigi.driver' doesn't exist
+CRITICAL - 2025-04-09 23:36:44 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1153): App\Models\M_belajar->joinRPL12('driver', 'user', 'driver.id_user ...', 'id_user')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->dokter()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}

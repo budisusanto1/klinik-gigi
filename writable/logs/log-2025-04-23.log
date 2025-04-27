@@ -1,0 +1,508 @@
+CRITICAL - 2025-04-23 08:51:29 --> syntax error, unexpected 'elseif' (T_ELSEIF)
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('jadwal_kunjunga...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(355): view('jadwal_kunjunga...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 08:52:27 --> syntax error, unexpected 'elseif' (T_ELSEIF)
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('jadwal_kunjunga...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(355): view('jadwal_kunjunga...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+ERROR - 2025-04-23 06:18:29 --> Unknown column 'konfirmasi_kedatangan' in 'field list'
+ERROR - 2025-04-23 06:18:37 --> Unknown column 'konfirmasi_kedatangan' in 'field list'
+ERROR - 2025-04-23 06:19:13 --> Unknown column 'konfirmasi_kedatangan' in 'field list'
+CRITICAL - 2025-04-23 06:38:35 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 H:\My Drive\klinlik\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/rekammedis...')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/rekammedis...')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-23 06:39:05 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 H:\My Drive\klinlik\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/jadwal')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/jadwal')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-23 06:39:10 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 H:\My Drive\klinlik\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/pasien')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/pasien')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-23 06:45:17 --> Too few arguments to function App\Models\M_belajar::join(), 2 passed in H:\My Drive\klinlik\klinik\app\Controllers\Home.php on line 432 and exactly 4 expected
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(432): App\Models\M_belajar->join('user as pasien', 'rekam_medis.id_...')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->rekamMedisSaya()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-23 06:47:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ON `rekam_medis`.`id_dokter` = 
+JOIN  USING (`rekam_medis`.`id_periksa`)
+JOIN...' at line 4
+CRITICAL - 2025-04-23 06:47:38 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(441): App\Models\M_belajar->join5('rekam_medis', 'user as pasien', '', '', '', 'rekam_medis.id_...', 'rekam_medis.id_...', 'rekam_medis.id_...', 'DESC')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->rekamMedisSaya()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-23 18:51:05 --> Cannot use object of type mysqli as array
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(210): include()
+#1 H:\My Drive\klinlik\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('rekam_medis_say...', Array, true)
+#3 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(445): view('rekam_medis_say...', Array)
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->rekamMedisSaya()
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#9 {main}
+CRITICAL - 2025-04-23 18:51:51 --> Invalid file: layout/template_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 H:\My Drive\klinlik\klinik\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#2 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('rekam_medis_say...', Array, true)
+#3 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(445): view('rekam_medis_say...', Array)
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->rekamMedisSaya()
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#9 {main}
+CRITICAL - 2025-04-23 18:52:05 --> View themes, no current section.
+#0 H:\My Drive\klinlik\klinik\app\Views\rekam_medis_saya.php(45): CodeIgniter\View\View->endSection()
+#1 H:\My Drive\klinlik\klinik\system\View\View.php(210): include('H:\\My Drive\\kli...')
+#2 H:\My Drive\klinlik\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('rekam_medis_say...', Array, true)
+#4 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(445): view('rekam_medis_say...', Array)
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->rekamMedisSaya()
+#6 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#10 {main}
+CRITICAL - 2025-04-23 06:58:35 --> Call to undefined method App\Models\M_belajar::getPasienList
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(455): CodeIgniter\Model->__call('getPasienList', Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->rekamMedisTambah()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-23 07:04:32 --> Unknown column 'role' in 'where clause'
+CRITICAL - 2025-04-23 07:04:32 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 H:\My Drive\klinlik\klinik\app\Models\M_belajar.php(133): CodeIgniter\BaseModel->findAll()
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(455): App\Models\M_belajar->getPasienList()
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->rekamMedisTambah()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 07:06:13 --> Invalid file: rekammedis_tambah.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rekammedis_tamb...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('rekammedis_tamb...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(458): view('rekammedis_tamb...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->rekamMedisTambah()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 07:13:02 --> Invalid argument supplied for foreach()
+#0 H:\My Drive\klinlik\klinik\app\Views\rekam_medistambah.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'H:\\My Drive\\kli...', 19, Array)
+#1 H:\My Drive\klinlik\klinik\system\View\View.php(210): include('H:\\My Drive\\kli...')
+#2 H:\My Drive\klinlik\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('rekam_medistamb...', Array, true)
+#4 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(458): view('rekam_medistamb...', Array)
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->rekamMedisTambah()
+#6 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#10 {main}
+ERROR - 2025-04-23 07:14:36 --> Unknown column 'nama_pasien' in 'field list'
+CRITICAL - 2025-04-23 07:14:36 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(455): App\Models\M_belajar->getPasienList()
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->rekamMedisTambah()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-23 07:15:12 --> Unknown column 'nama_pasien' in 'field list'
+ERROR - 2025-04-23 07:15:12 --> Query gagal: Array
+CRITICAL - 2025-04-23 07:15:13 --> Invalid argument supplied for foreach()
+#0 H:\My Drive\klinlik\klinik\app\Views\rekam_medistambah.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'H:\\My Drive\\kli...', 19, Array)
+#1 H:\My Drive\klinlik\klinik\system\View\View.php(210): include('H:\\My Drive\\kli...')
+#2 H:\My Drive\klinlik\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('rekam_medistamb...', Array, true)
+#4 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(458): view('rekam_medistamb...', Array)
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->rekamMedisTambah()
+#6 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#10 {main}
+CRITICAL - 2025-04-23 07:15:46 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 H:\My Drive\klinlik\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/rekamMedis...')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/rekamMedis...')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-23 07:16:07 --> Unknown column 'nama_pasien' in 'field list'
+ERROR - 2025-04-23 07:16:07 --> Query gagal: Array
+CRITICAL - 2025-04-23 07:16:29 --> syntax error, unexpected '['
+#0 H:\My Drive\klinlik\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/rekamMedis...')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/rekamMedis...')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-23 07:16:41 --> Unknown column 'nama_pasien' in 'field list'
+ERROR - 2025-04-23 07:16:41 --> Query gagal: Array
+ERROR - 2025-04-23 07:18:50 --> Unknown column 'nama_pasien' in 'field list'
+ERROR - 2025-04-23 07:18:50 --> Query gagal: Array
+ERROR - 2025-04-23 07:19:28 --> Unknown column 'nama_pasien' in 'field list'
+ERROR - 2025-04-23 07:19:28 --> Query gagal: Array
+ERROR - 2025-04-23 07:34:51 --> Column 'id_dokter' cannot be null
+ERROR - 2025-04-23 07:36:30 --> Column 'id_dokter' cannot be null
+ERROR - 2025-04-23 07:48:11 --> Column 'id_dokter' cannot be null
+CRITICAL - 2025-04-23 07:53:33 --> Cannot redeclare App\Controllers\Home::rekammedissimpan()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-04-23 07:55:02 --> Column 'id_dokter' cannot be null
+ERROR - 2025-04-23 07:57:00 --> Column 'id_dokter' cannot be null
+CRITICAL - 2025-04-23 08:15:31 --> Invalid file: home/Pembayaran_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/Pembayaran...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('home/Pembayaran...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(224): view('home/Pembayaran...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 08:16:12 --> Invalid file: home/pembayaran_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/pembayaran...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('home/pembayaran...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(224): view('home/pembayaran...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 08:16:17 --> Invalid file: home/pembayaran_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/pembayaran...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('home/pembayaran...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(224): view('home/pembayaran...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 08:17:17 --> Invalid file: home/pembayaran_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/pembayaran...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('home/pembayaran...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(223): view('home/pembayaran...')
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 08:17:31 --> Invalid file: home/pembayaran_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/pembayaran...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('home/pembayaran...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(223): view('home/pembayaran...')
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 08:20:46 --> Invalid file: home/pembayaran_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/pembayaran...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('home/pembayaran...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(227): view('home/pembayaran...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 08:22:46 --> Cannot redeclare App\Models\BookingModel::$table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-23 08:23:16 --> Cannot redeclare App\Models\BookingModel::$primaryKey
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-23 08:23:40 --> Cannot redeclare App\Models\BookingModel::$allowedFields
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-23 08:23:52 --> Invalid file: home/pembayaran_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/pembayaran...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('home/pembayaran...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(227): view('home/pembayaran...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 08:25:37 --> Invalid file: home/pembayaran_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/pembayaran...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('home/pembayaran...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(227): view('home/pembayaran...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 08:26:27 --> Invalid file: home/pembayaran_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/pembayaran...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('home/pembayaran...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(227): view('home/pembayaran...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 08:34:42 --> Invalid file: home/pembayaran_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/pembayaran...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('home/pembayaran...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(227): view('home/pembayaran...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 08:38:38 --> Invalid file: home/pembayaran_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/pembayaran...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('home/pembayaran...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(227): view('home/pembayaran...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 08:40:27 --> Invalid file: home/pembayaran_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/pembayaran...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('home/pembayaran...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(227): view('home/pembayaran...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 08:42:18 --> Invalid file: home/pembayaran_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/pembayaran...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('home/pembayaran...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(227): view('home/pembayaran...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 08:43:05 --> Invalid file: home/pembayaran_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/pembayaran...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('home/pembayaran...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(227): view('home/pembayaran...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 08:49:02 --> Illegal string offset 'id_layanan'
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'H:\\My Drive\\kli...', 229, Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-23 08:56:25 --> Cannot redeclare App\Controllers\Home::pembayaran()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-23 08:56:26 --> Cannot redeclare App\Controllers\Home::pembayaran()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-23 09:00:08 --> Class 'App\Controllers\LayananModel' not found
+#0 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#5 {main}
+CRITICAL - 2025-04-23 09:01:46 --> Invalid file: home/pembayaran_pasien.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/pembayaran...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('home/pembayaran...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(251): view('home/pembayaran...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 09:06:41 --> Invalid argument supplied for foreach()
+#0 H:\My Drive\klinlik\klinik\app\Views\riwayat_pembayaran.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'H:\\My Drive\\kli...', 22, Array)
+#1 H:\My Drive\klinlik\klinik\system\View\View.php(210): include('H:\\My Drive\\kli...')
+#2 H:\My Drive\klinlik\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('riwayat_pembaya...', Array, true)
+#4 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(287): view('riwayat_pembaya...', Array)
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->riwayat_pembayaran()
+#6 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#10 {main}
+CRITICAL - 2025-04-23 09:10:27 --> There is no data to update.
+#0 H:\My Drive\klinlik\klinik\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 H:\My Drive\klinlik\klinik\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(287): CodeIgniter\Model->update('10', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 09:11:24 --> There is no data to update.
+#0 H:\My Drive\klinlik\klinik\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 H:\My Drive\klinlik\klinik\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(288): CodeIgniter\Model->update('10', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 09:14:43 --> Call to undefined method App\Models\BookingModel::update_data
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(288): CodeIgniter\Model->__call('update_data', Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-23 09:19:11 --> Call to undefined method App\Models\PembayaranModel::updateData1
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(275): CodeIgniter\Model->__call('updateData1', Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-23 09:20:32 --> Call to undefined method App\Models\PembayaranModel::updateData1
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(275): CodeIgniter\Model->__call('updateData1', Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-23 09:22:34 --> Call to undefined method App\Models\PembayaranModel::updateData1
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(276): CodeIgniter\Model->__call('updateData1', Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-23 09:22:51 --> Call to undefined method App\Models\PembayaranModel::updateData1
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(276): CodeIgniter\Model->__call('updateData1', Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-23 09:24:41 --> Call to undefined method App\Models\PembayaranModel::updateData
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(276): CodeIgniter\Model->__call('updateData', Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-23 09:24:49 --> Call to undefined method App\Models\PembayaranModel::updateData
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(276): CodeIgniter\Model->__call('updateData', Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-23 09:25:02 --> Call to undefined method App\Models\PembayaranModel::updateData1
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(276): CodeIgniter\Model->__call('updateData1', Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-23 09:31:08 --> Cannot redeclare App\Models\PembayaranModel::$allowedFields
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-23 09:31:24 --> There is no data to update.
+#0 H:\My Drive\klinlik\klinik\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 H:\My Drive\klinlik\klinik\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(294): CodeIgniter\Model->update('8', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-23 09:35:01 --> Call to undefined method stdClass::getRow()
+#0 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#5 {main}
+CRITICAL - 2025-04-23 09:35:22 --> syntax error, unexpected 'if' (T_IF)
+#0 H:\My Drive\klinlik\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/proses_pem...')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/proses_pem...')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-23 09:35:37 --> Call to undefined method App\Models\M_belajar::simpan_data
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(290): CodeIgniter\Model->__call('simpan_data', Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}

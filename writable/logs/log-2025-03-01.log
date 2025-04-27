@@ -1,0 +1,1068 @@
+CRITICAL - 2025-03-01 00:26:53 --> Invalid file: laporan_transaksi.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_transak...')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('laporan_transak...', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(563): view('laporan_transak...')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-03-01 00:27:11 --> Invalid file: laporan_keuangan.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_keuanga...')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('laporan_keuanga...', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(569): view('laporan_keuanga...')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->laporan_keuangan()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+ERROR - 2025-03-01 00:36:22 --> Unknown column 'orders.status_pembayaran' in 'field list'
+CRITICAL - 2025-03-01 00:36:22 --> Call to a member function getResultArray() on bool
+#0 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->driver_orders()
+#1 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#5 {main}
+CRITICAL - 2025-03-01 01:31:01 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\fastfood\app\Models\M_belajar.php on line 11
+#0 D:\fastfood\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 D:\fastfood\app\Controllers\Home.php(673): App\Models\M_belajar->tampil('user', NULL)
+#2 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#3 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#7 {main}
+CRITICAL - 2025-03-01 01:31:38 --> Call to a member function tampil() on null
+#0 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#1 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#5 {main}
+CRITICAL - 2025-03-01 01:31:48 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tambahdriver.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 24, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tambahdriver', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(674): view('tambahdriver')
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-03-01 01:31:55 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tambahdriver.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 24, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tambahdriver', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(674): view('tambahdriver')
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-03-01 01:32:19 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\fastfood\app\Models\M_belajar.php on line 11
+#0 D:\fastfood\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 D:\fastfood\app\Controllers\Home.php(673): App\Models\M_belajar->tampil('user', NULL)
+#2 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#3 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#7 {main}
+CRITICAL - 2025-03-01 01:32:42 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\fastfood\app\Models\M_belajar.php on line 11
+#0 D:\fastfood\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 D:\fastfood\app\Controllers\Home.php(673): App\Models\M_belajar->tampil('user', NULL)
+#2 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#3 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#7 {main}
+CRITICAL - 2025-03-01 01:32:45 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\fastfood\app\Models\M_belajar.php on line 11
+#0 D:\fastfood\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 D:\fastfood\app\Controllers\Home.php(673): App\Models\M_belajar->tampil('user', NULL)
+#2 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#3 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#7 {main}
+CRITICAL - 2025-03-01 01:33:06 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\fastfood\app\Models\M_belajar.php on line 11
+#0 D:\fastfood\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 D:\fastfood\app\Controllers\Home.php(673): App\Models\M_belajar->tampil('user', NULL)
+#2 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#3 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#7 {main}
+CRITICAL - 2025-03-01 01:33:09 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\fastfood\app\Models\M_belajar.php on line 11
+#0 D:\fastfood\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 D:\fastfood\app\Controllers\Home.php(673): App\Models\M_belajar->tampil('user', NULL)
+#2 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#3 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#7 {main}
+CRITICAL - 2025-03-01 01:34:01 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\fastfood\app\Models\M_belajar.php on line 11
+#0 D:\fastfood\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 D:\fastfood\app\Controllers\Home.php(673): App\Models\M_belajar->tampil('user', NULL)
+#2 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#3 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#7 {main}
+CRITICAL - 2025-03-01 01:34:13 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in D:\fastfood\app\Models\M_belajar.php on line 11
+#0 D:\fastfood\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 D:\fastfood\app\Controllers\Home.php(673): App\Models\M_belajar->tampil('user', NULL)
+#2 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#3 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#7 {main}
+CRITICAL - 2025-03-01 01:34:25 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in D:\fastfood\app\Models\M_belajar.php on line 11
+#0 D:\fastfood\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->orderBy(Array, 'desc')
+#1 D:\fastfood\app\Controllers\Home.php(674): App\Models\M_belajar->tampil('user', Array)
+#2 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#3 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#7 {main}
+CRITICAL - 2025-03-01 01:35:11 --> Argument 2 passed to view() must be of the type array, null given, called in D:\fastfood\app\Controllers\Home.php on line 674
+#0 D:\fastfood\app\Controllers\Home.php(674): view('tambahdriver', NULL)
+#1 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#2 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#6 {main}
+CRITICAL - 2025-03-01 01:36:48 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tambahdriver.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 24, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tambahdriver', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(676): view('tambahdriver')
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-03-01 01:37:38 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tambahdriver.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 24, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tambahdriver', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(676): view('tambahdriver')
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-03-01 01:37:43 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tambahdriver.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 24, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tambahdriver', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(676): view('tambahdriver')
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-03-01 01:37:50 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tambahdriver.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 24, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tambahdriver', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(676): view('tambahdriver')
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-03-01 01:38:10 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tambahdriver.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 24, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tambahdriver', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(676): view('tambahdriver')
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-03-01 01:39:02 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tambahdriver.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 24, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tambahdriver', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(676): view('tambahdriver')
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-03-01 01:39:21 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tambahdriver.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 24, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tambahdriver', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(676): view('tambahdriver', Array)
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-03-01 01:39:25 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tambahdriver.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 24, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tambahdriver', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(676): view('tambahdriver')
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-03-01 01:41:42 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tambahdriver.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 24, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tambahdriver', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(676): view('tambahdriver', Array)
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-03-01 01:41:46 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tambahdriver.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 24, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tambahdriver', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(676): view('tambahdriver')
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-03-01 01:41:53 --> You must set the database table to be used with your query.
+#0 D:\fastfood\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\fastfood\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\fastfood\app\Controllers\Home.php(673): CodeIgniter\Model->__call('getAllUsers', Array)
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-03-01 01:42:02 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tambahdriver.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 24, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tambahdriver', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(676): view('tambahdriver')
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->tambahdriver()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+ERROR - 2025-03-01 01:52:18 --> Table 'fast_food.tb_user' doesn't exist
+CRITICAL - 2025-03-01 01:52:18 --> Call to a member function getResult() on bool
+#0 D:\fastfood\app\Controllers\Home.php(642): App\Models\M_belajar->joinRPL12('driver', 'tb_user', 'driver.id_user ...', NULL)
+#1 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->driver()
+#2 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#6 {main}
+CRITICAL - 2025-03-01 01:54:14 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tampilankaryawan.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 62, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tampilankaryawa...', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(723): view('tampilankaryawa...', Array)
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-03-01 01:54:22 --> Invalid file: laporan_transaksi.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_transak...')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('laporan_transak...', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(563): view('laporan_transak...')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-03-01 01:54:26 --> Invalid file: laporan_keuangan.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_keuanga...')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('laporan_keuanga...', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(569): view('laporan_keuanga...')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->laporan_keuangan()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+ERROR - 2025-03-01 01:54:56 --> No orders found for customer ID: 1
+ERROR - 2025-03-01 01:55:01 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '1'
+OR `orders`.`id_driver` IS NULL
+ )
+CRITICAL - 2025-03-01 01:55:04 --> Invalid file: restoran.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('restoran.php')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('restoran', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(545): view('restoran')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->restoran()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-03-01 01:55:14 --> Invalid file: laporan_transaksi.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_transak...')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('laporan_transak...', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(563): view('laporan_transak...')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-03-01 01:55:17 --> Invalid file: nota.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nota.php')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('nota', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(575): view('nota')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->nota()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+ERROR - 2025-03-01 01:56:32 --> No orders found for customer ID: 1
+ERROR - 2025-03-01 01:56:40 --> No orders found for customer ID: 1
+CRITICAL - 2025-03-01 01:57:17 --> Invalid file: restoran.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('restoran.php')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('restoran', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(545): view('restoran')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->restoran()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-03-01 01:57:19 --> Invalid file: pembayaran.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pembayaran.php')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('pembayaran', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(557): view('pembayaran')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-03-01 01:57:21 --> Invalid file: laporan_transaksi.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_transak...')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('laporan_transak...', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(563): view('laporan_transak...')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-03-01 01:57:23 --> Invalid file: laporan_keuangan.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_keuanga...')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('laporan_keuanga...', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(569): view('laporan_keuanga...')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->laporan_keuangan()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-03-01 01:57:27 --> Invalid file: nota.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nota.php')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('nota', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(575): view('nota')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->nota()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-03-01 01:57:31 --> Invalid file: welcome_message.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(10): view('welcome_message')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+ERROR - 2025-03-01 02:04:21 --> Duplicate entry '2' for key 'id_user'
+ERROR - 2025-03-01 02:05:13 --> Duplicate entry '1' for key 'id_user'
+ERROR - 2025-03-01 02:05:29 --> Duplicate entry '3' for key 'id_user'
+ERROR - 2025-03-01 02:05:45 --> Duplicate entry '3' for key 'id_user'
+ERROR - 2025-03-01 02:06:38 --> Duplicate entry '2' for key 'id_user'
+ERROR - 2025-03-01 02:06:42 --> Duplicate entry '2' for key 'id_user'
+ERROR - 2025-03-01 02:07:40 --> Duplicate entry '5' for key 'id_user'
+ERROR - 2025-03-01 02:08:47 --> Duplicate entry '5' for key 'id_user'
+ERROR - 2025-03-01 02:09:22 --> Duplicate entry '6' for key 'id_user'
+ERROR - 2025-03-01 02:11:46 --> Duplicate entry '5' for key 'id_user'
+ERROR - 2025-03-01 02:11:52 --> Duplicate entry '6' for key 'id_user'
+CRITICAL - 2025-03-01 02:17:47 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tampilankaryawan.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 62, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tampilankaryawa...', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(726): view('tampilankaryawa...', Array)
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-03-01 02:41:53 --> Cannot redeclare App\Controllers\Home::edit_driver()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-03-01 02:43:58 --> Duplicate entry '1' for key 'id_user'
+CRITICAL - 2025-03-01 02:54:41 --> Invalid file: restoran.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('restoran.php')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('restoran', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(545): view('restoran')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->restoran()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-03-01 02:55:41 --> Invalid file: restoran.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('restoran.php')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('restoran', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(545): view('restoran')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->restoran()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-03-01 02:55:45 --> Invalid file: restoran.php
+#0 D:\fastfood\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('restoran.php')
+#1 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('restoran', Array, true)
+#2 D:\fastfood\app\Controllers\Home.php(545): view('restoran')
+#3 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->restoran()
+#4 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#8 {main}
+CRITICAL - 2025-03-01 03:06:57 --> Invalid argument supplied for foreach()
+#0 D:\fastfood\app\Views\tampilanrestoran.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\fastfood\\app...', 35, Array)
+#1 D:\fastfood\system\View\View.php(210): include('D:\\fastfood\\app...')
+#2 D:\fastfood\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\fastfood\system\Common.php(1089): CodeIgniter\View\View->render('tampilanrestora...', Array, true)
+#4 D:\fastfood\app\Controllers\Home.php(834): view('tampilanrestora...', Array)
+#5 D:\fastfood\system\CodeIgniter.php(832): App\Controllers\Home->restoran()
+#6 D:\fastfood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\fastfood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\fastfood\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\fastfood\system\Commands\Server\rewrite.php(43): require_once('D:\\fastfood\\pub...')
+#10 {main}
+CRITICAL - 2025-03-01 03:09:57 --> Cannot redeclare App\Controllers\Home::simpan_karyawan()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-01 03:12:56 --> Cannot redeclare App\Controllers\Home::simpan_karyawan()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-03-01 03:32:12 --> Unknown column 'kontak_restoran' in 'field list'
+ERROR - 2025-03-01 04:30:50 --> Error connecting to the database: Unknown database 'fastfood1'
+CRITICAL - 2025-03-01 04:30:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'fastfood1'
+#0 C:\Users\user\Music\fastfoodbaru\fastfoodbaru\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\user\Music\fastfoodbaru\fastfoodbaru\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\user\Music\fastfoodbaru\fastfoodbaru\app\Models\M_belajar.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\user\Music\fastfoodbaru\fastfoodbaru\app\Controllers\Home.php(990): App\Models\M_belajar->tampil('customer', 'id_customer')
+#4 C:\Users\user\Music\fastfoodbaru\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->customer()
+#5 C:\Users\user\Music\fastfoodbaru\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\user\Music\fastfoodbaru\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\user\Music\fastfoodbaru\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\user\Music\fastfoodbaru\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\M...')
+#9 {main}
+ERROR - 2025-03-01 04:38:07 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ )
+ERROR - 2025-03-01 04:40:59 --> Unknown column 'status_pembayaran' in 'field list'
+ERROR - 2025-03-01 04:40:59 --> Failed to update payment status for Order ID: 614
+ERROR - 2025-03-01 04:57:28 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ )
+CRITICAL - 2025-03-01 06:51:48 --> Call to a member function getById() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->edit_menu('2')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 06:52:34 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/edit_menu/...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/edit_menu/...')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-03-01 06:52:35 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/edit_menu/...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/edit_menu/...')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-03-01 06:52:36 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/edit_menu/...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/edit_menu/...')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-03-01 06:52:39 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/edit_menu/...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/edit_menu/...')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-03-01 06:53:21 --> Cannot redeclare App\Controllers\Home::simpan_perubahan_menu()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-01 06:53:23 --> Cannot redeclare App\Controllers\Home::simpan_perubahan_menu()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-01 06:53:27 --> Cannot redeclare App\Controllers\Home::simpan_perubahan_menu()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-01 06:53:49 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/edit_menu/...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/edit_menu/...')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-03-01 07:19:51 --> Call to a member function update() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:19:51 --> Call to a member function update() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:20:06 --> Call to a member function update() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:20:06 --> Call to a member function update() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:20:12 --> Call to a member function update() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:20:12 --> Call to a member function update() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:22:47 --> Call to a member function update() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:22:53 --> Call to a member function update() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:23:00 --> Call to a member function update() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:26:28 --> Call to a member function edit() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:26:42 --> Call to a member function edit() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:27:48 --> Call to a member function edit() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:28:40 --> Call to a member function edit() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:30:17 --> Call to a member function edit() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:32:24 --> Call to a member function edit() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:40:35 --> Call to a member function edit() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 07:44:55 --> Invalid argument supplied for foreach()
+#0 H:\My Drive\fastfood\fastfoodbaru\app\Views\tambah_menu.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'H:\\My Drive\\fas...', 16, Array)
+#1 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(210): include('H:\\My Drive\\fas...')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('tambah_menu', Array, true)
+#4 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(72): view('tambah_menu')
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->tambah_menu()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#10 {main}
+CRITICAL - 2025-03-01 07:55:16 --> syntax error, unexpected 'n' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_men...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_men...')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-03-01 07:56:05 --> Unknown column 'gambar' in 'field list'
+ERROR - 2025-03-01 07:57:53 --> Unknown column 'gambar' in 'field list'
+CRITICAL - 2025-03-01 08:00:57 --> Call to a member function edit() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 08:02:13 --> Call to a member function edit() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 08:04:47 --> Call to a member function edit() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 08:16:06 --> Call to a member function update() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 08:17:29 --> Allowed fields must be specified for model: App\Models\M_belajar
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_be...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(841): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 H:\My Drive\fastfood\fastfoodbaru\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(52): CodeIgniter\Model->update('2', Array)
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-03-01 08:20:27 --> Allowed fields must be specified for model: App\Models\M_belajar
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_be...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(841): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 H:\My Drive\fastfood\fastfoodbaru\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(56): CodeIgniter\Model->update('2', Array)
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-03-01 08:25:11 --> Declaration of App\Models\M_belajar::update($table, $where, $data) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-01 08:26:46 --> Call to a member function updatedata() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 08:28:47 --> Call to a member function updateData() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->ubah_status_restoran()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-01 08:30:04 --> syntax error, unexpected 'ublic' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('H:\\My Drive\\fas...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_be...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_be...')
+#3 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(37): spl_autoload_call('App\\Models\\M_be...')
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->menu1()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+ERROR - 2025-03-01 09:10:54 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ )
+ERROR - 2025-03-01 09:14:04 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ )
+ERROR - 2025-03-01 09:14:08 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ )
+ERROR - 2025-03-01 09:14:10 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ )
+ERROR - 2025-03-01 09:15:26 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '2'
+OR `orders`.`id_driver` IS NULL
+ )
+ERROR - 2025-03-01 09:15:31 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '2'
+OR `orders`.`id_driver` IS NULL
+ )
+ERROR - 2025-03-01 09:15:42 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '2'
+OR `orders`.`id_driver` IS NULL
+ )
+ERROR - 2025-03-01 09:18:13 --> Unknown column 'restoran.lat' in 'field list'
+CRITICAL - 2025-03-01 09:18:14 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-03-01 09:19:00 --> Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:19:00 --> Query gagal: Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:19:58 --> No orders found for customer ID: 6
+ERROR - 2025-03-01 09:20:01 --> Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:20:01 --> Query gagal: Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:20:04 --> Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:20:04 --> Query gagal: Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:21:36 --> Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:21:37 --> Query gagal: {"code":1054,"message":"Unknown column 'restoran.lat' in 'field list'"}
+ERROR - 2025-03-01 09:22:26 --> Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:22:26 --> Query gagal: {"code":1054,"message":"Unknown column 'restoran.lat' in 'field list'"}
+ERROR - 2025-03-01 09:26:22 --> Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:26:22 --> Query gagal: Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:26:25 --> Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:26:25 --> Query gagal: Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:26:31 --> Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:26:31 --> Query gagal: Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:26:41 --> Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:26:41 --> Query gagal: {"code":1054,"message":"Unknown column 'restoran.lat' in 'field list'"}
+ERROR - 2025-03-01 09:27:12 --> Unknown column 'restoran.lat' in 'field list'
+ERROR - 2025-03-01 09:27:12 --> Query gagal: {"code":1054,"message":"Unknown column 'restoran.lat' in 'field list'"}
+ERROR - 2025-03-01 09:59:15 --> Unknown column 'status_pembayaran' in 'field list'
+ERROR - 2025-03-01 09:59:15 --> Failed to update payment status for Order ID: 615
+CRITICAL - 2025-03-01 10:26:41 --> Cannot redeclare App\Controllers\Home::batal_pengiriman()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-03-01 10:27:29 --> Unknown column 'status_pembayaran' in 'field list'
+ERROR - 2025-03-01 10:27:29 --> Failed to update payment status for Order ID: 616
+ERROR - 2025-03-01 10:32:22 --> Unknown column 'status_pembayaran' in 'field list'
+ERROR - 2025-03-01 10:32:22 --> Failed to update payment status for Order ID: 617
+ERROR - 2025-03-01 10:32:22 --> Unknown column 'orders.metode_pembayaran' in 'field list'
+CRITICAL - 2025-03-01 10:32:22 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-03-01 10:33:02 --> Unknown column 'orders.metode_pembayaran' in 'field list'
+CRITICAL - 2025-03-01 11:33:20 --> syntax error, unexpected 'ppublic' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftar_pes...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftar_pes...')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-03-01 11:33:34 --> Unknown column 'c.lat' in 'field list'
+CRITICAL - 2025-03-01 11:33:35 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-03-01 11:35:10 --> Unknown column 'c.lat' in 'field list'
+CRITICAL - 2025-03-01 11:35:11 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-03-01 11:36:44 --> Unknown column 'c.lat' in 'field list'
+CRITICAL - 2025-03-01 11:37:32 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(648): view('pesanan', Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-03-01 11:40:35 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(648): view('pesanan', Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-03-01 11:40:45 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(648): view('pesanan', Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-03-01 11:41:01 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(648): view('pesanan', Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-03-01 11:42:09 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(648): view('pesanan', Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-03-01 13:18:57 --> Call to a member function table() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('pesanan_driver', Array, true)
+#3 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(546): view('pesanan_driver', Array)
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-03-01 13:21:07 --> Call to a member function table() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('pesanan_driver', Array, true)
+#3 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(555): view('pesanan_driver', Array)
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-03-01 13:21:13 --> Call to a member function table() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('pesanan_driver', Array, true)
+#3 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(555): view('pesanan_driver', Array)
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-03-01 13:48:52 --> Invalid argument supplied for foreach()
+#0 H:\My Drive\fastfood\fastfoodbaru\app\Views\pesanan_driver.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'H:\\My Drive\\fas...', 25, Array)
+#1 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(210): include('H:\\My Drive\\fas...')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('pesanan_driver', Array, true)
+#4 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(548): view('pesanan_driver', Array)
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#10 {main}
+CRITICAL - 2025-03-01 13:49:17 --> Invalid argument supplied for foreach()
+#0 H:\My Drive\fastfood\fastfoodbaru\app\Views\pesanan_driver.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'H:\\My Drive\\fas...', 25, Array)
+#1 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(210): include('H:\\My Drive\\fas...')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('pesanan_driver', Array, true)
+#4 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(548): view('pesanan_driver', Array)
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#10 {main}
+CRITICAL - 2025-03-01 13:53:55 --> Invalid argument supplied for foreach()
+#0 H:\My Drive\fastfood\fastfoodbaru\app\Views\pesanan_driver.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'H:\\My Drive\\fas...', 25, Array)
+#1 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(210): include('H:\\My Drive\\fas...')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('pesanan_driver', Array, true)
+#4 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(548): view('pesanan_driver', Array)
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#10 {main}
+ERROR - 2025-03-01 14:14:47 --> Unknown column 'status_pembayaran' in 'field list'
+ERROR - 2025-03-01 14:14:47 --> Failed to update payment status for Order ID: 618
+CRITICAL - 2025-03-01 14:19:14 --> syntax error, unexpected 'ublic' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftar_pes...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftar_pes...')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-03-01 14:22:48 --> Unknown column 'status_pembayaran' in 'field list'
+ERROR - 2025-03-01 14:22:48 --> Failed to update payment status for Order ID: 619
+ERROR - 2025-03-01 14:26:51 --> Unknown column 'status_pembayaran' in 'field list'
+ERROR - 2025-03-01 14:26:51 --> Failed to update payment status for Order ID: 620

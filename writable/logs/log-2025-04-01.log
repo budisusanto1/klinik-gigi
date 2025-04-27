@@ -1,0 +1,346 @@
+CRITICAL - 2025-04-01 21:10:15 --> syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-04-01 21:10:16 --> syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-04-01 21:23:16 --> Unknown column 'orders.status_pembayaran' in 'field list'
+CRITICAL - 2025-04-01 21:23:16 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->driver_orders()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-04-01 21:24:09 --> Unknown column 'orders.status_pembayaran' in 'field list'
+ERROR - 2025-04-01 21:25:00 --> Unknown column 'orders.status_pembayaran' in 'field list'
+ERROR - 2025-04-01 21:26:47 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-04-01 21:27:25 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-04-01 21:27:41 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-04-01 21:30:18 --> Unknown column 'orders.status_pembayaran' in 'field list'
+CRITICAL - 2025-04-01 21:30:18 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->driver_orders()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-04-01 21:30:58 --> Unknown column 'orders.status_pembayaran' in 'field list'
+ERROR - 2025-04-01 21:34:43 --> Unknown column 'orders.status_pembayaran' in 'field list'
+CRITICAL - 2025-04-01 21:34:43 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->driver_orders()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-04-01 21:35:46 --> Unknown column 'orders.status_pembayaran' in 'field list'
+CRITICAL - 2025-04-01 21:45:47 --> Call to a member function model() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->laporankeuangan()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-04-01 21:47:15 --> Invalid file: laporan_keuangan.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_keuanga...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('laporan_keuanga...', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(956): view('laporan_keuanga...', Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->laporankeuangan()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 21:47:40 --> Call to a member function model() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->exportExcel()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-04-01 21:48:58 --> Call to a member function model() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->exportExcel()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-04-01 21:52:42 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 21:53:39 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 21:54:17 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 21:54:51 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 21:56:01 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 21:56:31 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 21:57:41 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:00:06 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:05:08 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/hai')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/hai')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-04-01 22:05:30 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:06:06 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:08:28 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:11:02 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:12:23 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:12:58 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:14:53 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:15:34 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:17:08 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:19:24 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:19:46 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:22:01 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:23:45 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:26:45 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:29:27 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 22:29:41 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 23:45:31 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(12): view('welcome_message')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-04-01 23:55:00 --> Too few arguments to function App\Controllers\Home::orderdetail(), 0 passed in H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->orderdetail()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-04-01 23:59:26 --> Cannot redeclare App\Controllers\Home::orderdetail()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

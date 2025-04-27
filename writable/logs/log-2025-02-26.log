@@ -1,0 +1,473 @@
+ERROR - 2025-02-26 09:06:04 --> Table 'fast_food.customers' doesn't exist
+CRITICAL - 2025-02-26 09:06:05 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-02-26 09:09:17 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 09:09:33 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 09:09:46 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 09:12:50 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-26 09:12:50 --> Failed to update payment status for Order ID: 611
+ERROR - 2025-02-26 09:20:09 --> Table 'fast_food.drivers' doesn't exist
+CRITICAL - 2025-02-26 09:20:09 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-02-26 09:21:07 --> Unknown column 'drivers.nama_driver' in 'field list'
+CRITICAL - 2025-02-26 09:21:08 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-26 10:02:49 --> syntax error, unexpected 'ppublic' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/driver_ord...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/driver_ord...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-02-26 10:16:26 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-26 10:16:26 --> Failed to update payment status for Order ID: 612
+ERROR - 2025-02-26 10:16:27 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-26 10:16:27 --> Failed to update payment status for Order ID: 612
+ERROR - 2025-02-26 10:16:27 --> Duplicate entry '612' for key 'id_order'
+ERROR - 2025-02-26 10:16:27 --> Failed to insert payment data for Order ID: 612
+ERROR - 2025-02-26 10:17:00 --> Table 'fast_food.customers' doesn't exist
+CRITICAL - 2025-02-26 10:17:00 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-26 10:17:51 --> syntax error, unexpected 'ppublic' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/driver_ord...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/driver_ord...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-02-26 10:18:09 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 10:18:21 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 10:18:29 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 10:21:03 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 10:21:22 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 10:22:00 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 10:22:02 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 10:28:00 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 10:28:18 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 10:29:54 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 10:30:02 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 10:30:03 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 10:30:59 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 10:31:01 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 10:31:49 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 11:19:15 --> Unknown column 'driver.lat' in 'field list'
+CRITICAL - 2025-02-26 11:19:15 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-02-26 11:21:40 --> Unknown column 'driver.lat' in 'field list'
+ERROR - 2025-02-26 11:21:40 --> Query failed: Array
+ERROR - 2025-02-26 11:21:45 --> Unknown column 'driver.lat' in 'field list'
+ERROR - 2025-02-26 11:21:45 --> Query failed: Array
+ERROR - 2025-02-26 11:22:26 --> Unknown column 'driver.lat' in 'field list'
+ERROR - 2025-02-26 11:22:26 --> Query failed: Array
+ERROR - 2025-02-26 11:23:02 --> Unknown column 'driver.lat' in 'field list'
+ERROR - 2025-02-26 11:23:02 --> Query failed: Array
+ERROR - 2025-02-26 11:23:07 --> Unknown column 'driver.lat' in 'field list'
+ERROR - 2025-02-26 11:23:07 --> Query failed: Array
+CRITICAL - 2025-02-26 11:31:04 --> Call to a member function table() on null
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(502): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+ERROR - 2025-02-26 11:43:20 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 11:43:38 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 11:44:57 --> Table 'fast_food.status_pengiriman' doesn't exist
+CRITICAL - 2025-02-26 11:49:30 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/hai')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/hai')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-02-26 11:50:06 --> Cannot redeclare App\Controllers\Home::konfirmasi_pengiriman()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-02-26 11:50:29 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 11:52:01 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 11:54:31 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 11:55:10 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 11:55:51 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 11:56:45 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 11:56:49 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 11:58:15 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 12:00:12 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 12:00:30 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 12:04:46 --> Table 'fast_food.status_pengiriman' doesn't exist
+CRITICAL - 2025-02-26 12:05:48 --> Cannot redeclare App\Controllers\Home::konfirmasi_pengiriman()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-02-26 12:06:10 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 12:07:00 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 12:07:00 --> Query gagal dijalankan.
+ERROR - 2025-02-26 12:09:30 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 12:09:30 --> Query gagal dijalankan.
+ERROR - 2025-02-26 12:09:37 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 12:09:37 --> Query gagal dijalankan.
+ERROR - 2025-02-26 12:10:36 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 12:10:36 --> Query gagal dijalankan.
+ERROR - 2025-02-26 12:11:52 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 12:11:52 --> Query gagal dijalankan.
+ERROR - 2025-02-26 12:12:02 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 12:12:02 --> Query gagal dijalankan.
+ERROR - 2025-02-26 12:21:29 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 12:21:32 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 12:22:48 --> Table 'fast_food.status_pengiriman' doesn't exist
+ERROR - 2025-02-26 12:23:16 --> Table 'fast_food.status_pengiriman' doesn't exist
+CRITICAL - 2025-02-26 12:25:43 --> Invalid file: daftar_pesanan_driver.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('daftar_pesanan_...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('daftar_pesanan_...', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(527): view('daftar_pesanan_...', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->driver_orders()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-26 12:27:33 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 12:28:41 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 12:28:45 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 12:29:26 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 12:29:32 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 12:31:36 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 12:31:44 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 12:32:39 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 12:32:40 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 12:32:58 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 12:33:41 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 12:33:45 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 12:34:21 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 12:34:49 --> Table 'fast_food.customers' doesn't exist
+CRITICAL - 2025-02-26 12:34:49 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-26 12:36:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-26 12:36:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-02-26 12:37:36 --> Table 'fast_food.customers' doesn't exist
+CRITICAL - 2025-02-26 12:38:59 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftar_pes...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftar_pes...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-02-26 12:39:02 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftar_pes...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftar_pes...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-02-26 12:39:19 --> syntax error, unexpected '}'
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftar_pes...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftar_pes...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-02-26 12:39:54 --> Table 'fast_food.customers' doesn't exist
+ERROR - 2025-02-26 18:58:48 --> Table 'fast_food.customers' doesn't exist
+CRITICAL - 2025-02-26 18:58:48 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-02-26 19:02:33 --> Table 'fast_food.customers' doesn't exist
+CRITICAL - 2025-02-26 19:02:36 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(10): view('welcome_message')
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-26 19:02:56 --> Table 'fast_food.customers' doesn't exist
+CRITICAL - 2025-02-26 19:02:59 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(10): view('welcome_message')
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-26 19:13:22 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:13:27 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:14:49 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:17:03 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:17:54 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:22:35 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:24:55 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:26:08 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:30:23 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:31:32 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:32:59 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:33:18 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:35:30 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:38:26 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:42:12 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:43:10 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:43:25 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:45:49 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:46:06 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:47:55 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:51:12 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 19:58:01 --> MySQL server has gone away
+CRITICAL - 2025-02-26 19:58:02 --> Call to a member function getRow() on bool
+#0 I:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(98): App\Models\M_belajar->getWhere('user', Array)
+#1 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 I:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-02-26 19:58:47 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-02-26 19:58:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 I:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Models\M_belajar.php(23): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 I:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(98): App\Models\M_belajar->getWhere('user', Array)
+#4 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 I:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\fas...')
+#9 {main}
+ERROR - 2025-02-26 20:00:06 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-26 20:00:06 --> Failed to update payment status for Order ID: 608
+ERROR - 2025-02-26 20:01:03 --> Unknown column 'id' in 'field list'
+ERROR - 2025-02-26 20:01:50 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-26 20:01:50 --> Failed to update payment status for Order ID: 613
+CRITICAL - 2025-02-26 20:09:59 --> Call to a member function with() on string
+#0 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#1 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-02-26 20:12:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?) :(orders.id_driver IS NULL OR `orders`.`id_driver` = ?):' at line 5
+CRITICAL - 2025-02-26 20:12:11 --> Call to a member function getResultArray() on bool
+#0 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#1 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-02-26 20:12:46 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, `orders`.`status_pembayaran`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE `orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ERROR - 2025-02-26 20:12:54 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, `orders`.`status_pembayaran`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE `orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ERROR - 2025-02-26 20:13:34 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-26 20:13:34 --> Failed to update payment status for Order ID: 609
+ERROR - 2025-02-26 20:22:58 --> Duplicate entry '610' for key 'id_order'
+ERROR - 2025-02-26 20:23:03 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-26 20:23:03 --> Failed to update payment status for Order ID: 610
+ERROR - 2025-02-26 20:37:29 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, `orders`.`status_pembayaran`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE `orders`.`id_driver` = '2'
+OR `orders`.`id_driver` IS NULL
+ERROR - 2025-02-26 21:48:20 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-02-26 21:48:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 I:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Models\M_belajar.php(23): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 I:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(132): App\Models\M_belajar->getWhere('user', Array)
+#4 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 I:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\fas...')
+#9 {main}
+ERROR - 2025-02-26 21:48:26 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-02-26 21:48:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 I:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Models\M_belajar.php(23): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 I:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(132): App\Models\M_belajar->getWhere('user', Array)
+#4 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 I:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\fas...')
+#9 {main}
+ERROR - 2025-02-26 21:49:12 --> Duplicate entry '611' for key 'id_order'
+ERROR - 2025-02-26 21:49:20 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-26 21:49:20 --> Failed to update payment status for Order ID: 611
+ERROR - 2025-02-26 21:50:59 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, `orders`.`status_pembayaran`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE `orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ERROR - 2025-02-26 21:51:34 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, `orders`.`status_pembayaran`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE `orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ERROR - 2025-02-26 22:00:10 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, `orders`.`status_pembayaran`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE `orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ERROR - 2025-02-26 22:07:19 --> Unknown column 'orders.status_pembayaran' in 'field list'
+CRITICAL - 2025-02-26 22:07:20 --> Invalid file: welcome_message.php
+#0 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 I:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(10): view('welcome_message')
+#3 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 I:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-26 22:07:27 --> Unknown column 'orders.status_pembayaran' in 'field list'
+CRITICAL - 2025-02-26 22:07:41 --> Invalid file: welcome_message.php
+#0 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 I:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(10): view('welcome_message')
+#3 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 I:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-26 22:07:43 --> Unknown column 'orders.status_pembayaran' in 'field list'
+CRITICAL - 2025-02-26 22:07:55 --> Invalid file: welcome_message.php
+#0 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 I:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(10): view('welcome_message')
+#3 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 I:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-26 22:08:18 --> Unknown column 'orders.status_pembayaran' in 'field list'
+CRITICAL - 2025-02-26 22:08:19 --> Invalid file: welcome_message.php
+#0 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 I:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(10): view('welcome_message')
+#3 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 I:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-26 22:09:38 --> Invalid file: welcome_message.php
+#0 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 I:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(10): view('welcome_message')
+#3 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 I:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 I:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-26 22:09:45 --> Unknown column 'orders.status_pembayaran' in 'field list'
+ERROR - 2025-02-26 22:28:48 --> Unknown column 'status_pembayaran' in 'field list'
+ERROR - 2025-02-26 22:28:48 --> Failed to update payment status for Order ID: 612
+ERROR - 2025-02-26 22:41:14 --> Unknown column 'orders.status_pembayaran' in 'field list'
+ERROR - 2025-02-26 22:41:17 --> Unknown column 'orders.status_pembayaran' in 'field list'
+ERROR - 2025-02-26 22:43:01 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ )
+ERROR - 2025-02-26 22:43:10 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ )
+ERROR - 2025-02-26 22:45:31 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ )
+ERROR - 2025-02-26 22:46:28 --> SQL Query: SELECT `orders`.`id_order`, `orders`.`tanggal_order`, `orders`.`total_harga`, `orders`.`status_order`, `orders`.`status_pengiriman`, COALESCE(restoran.nama_restoran, "Tidak Diketahui") as nama_restoran, COALESCE(customer.nama_customer, "Tidak Diketahui") as nama_customer
+FROM `orders`
+LEFT JOIN `restoran` ON `restoran`.`id_restoran` = `orders`.`id_restoran`
+LEFT JOIN `customer` ON `customer`.`id_customer` = `orders`.`id_customer`
+WHERE   (
+`orders`.`id_driver` = '6'
+OR `orders`.`id_driver` IS NULL
+ )

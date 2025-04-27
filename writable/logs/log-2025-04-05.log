@@ -1,0 +1,16 @@
+ERROR - 2025-04-05 13:19:46 --> Unknown column 'status_pembayaran' in 'field list'
+CRITICAL - 2025-04-05 13:27:54 --> Call to a member function log_activity() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->simpan_menu()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-04-05 13:31:32 --> Trait 'App\Controllers\App\Models\M_belajar' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-05 13:31:57 --> Trait 'App\Controllers\App\Models\M_belajar' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-04-05 13:33:39 --> Table 'fast_food.log_aktivitas' doesn't exist
+ERROR - 2025-04-05 13:34:31 --> Table 'fast_food.log_aktivitas' doesn't exist

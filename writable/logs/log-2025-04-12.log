@@ -1,0 +1,214 @@
+CRITICAL - 2025-04-12 21:33:54 --> Invalid file: dashboard.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(16): view('dashboard')
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+ERROR - 2025-04-12 21:35:59 --> Unknown column 'deleted_at' in 'where clause'
+CRITICAL - 2025-04-12 21:35:59 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1151): App\Models\M_belajar->getUserDokterBelumTerdaftar()
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->dokter()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-12 21:36:36 --> Unknown column 'deleted_at' in 'where clause'
+CRITICAL - 2025-04-12 21:36:36 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1151): App\Models\M_belajar->getUserDokterBelumTerdaftar()
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->dokter()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-12 21:37:06 --> Unknown column 'deleted_at' in 'where clause'
+CRITICAL - 2025-04-12 21:37:06 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1151): App\Models\M_belajar->getUserDokterBelumTerdaftar()
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->dokter()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-12 21:37:10 --> Unknown column 'deleted_at' in 'where clause'
+CRITICAL - 2025-04-12 21:37:10 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1151): App\Models\M_belajar->getUserDokterBelumTerdaftar()
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->dokter()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-12 21:37:54 --> Unknown column 'deleted_at' in 'where clause'
+CRITICAL - 2025-04-12 21:37:54 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1151): App\Models\M_belajar->getUserDokterBelumTerdaftar()
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->dokter()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-12 21:38:11 --> Unknown column 'deleted_at' in 'where clause'
+CRITICAL - 2025-04-12 21:38:11 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1151): App\Models\M_belajar->getUserDokterBelumTerdaftar()
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->dokter()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-12 21:38:28 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ';'
+#0 H:\My Drive\klinlik\klinik\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('H:\\My Drive\\kli...')
+#1 H:\My Drive\klinlik\klinik\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_be...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_be...')
+#3 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1149): spl_autoload_call('App\\Models\\M_be...')
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->dokter()
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#9 {main}
+ERROR - 2025-04-12 21:39:04 --> Unknown column 'deleted_at' in 'where clause'
+ERROR - 2025-04-12 21:39:04 --> Query gagal: SELECT *
+FROM `user`
+WHERE `role` = 'dokter'
+AND `deleted_at` IS NULL
+AND `id_user` NOT IN (0)
+ERROR - 2025-04-12 21:40:02 --> Unknown column 'deleted_at' in 'where clause'
+ERROR - 2025-04-12 21:40:02 --> Query gagal: SELECT *
+FROM `user`
+WHERE `role` = 'dokter'
+AND `deleted_at` IS NULL
+AND `id_user` NOT IN (0)
+ERROR - 2025-04-12 21:40:37 --> Unknown column 'user.deleted_at' in 'where clause'
+CRITICAL - 2025-04-12 21:40:37 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1151): App\Models\M_belajar->getUserDokterBelumTerdaftar()
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->dokter()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-12 21:41:12 --> Unknown column 'user.deleted_at' in 'where clause'
+ERROR - 2025-04-12 21:41:12 --> Query gagal: SELECT *
+FROM `user`
+LEFT JOIN `dokter` ON `dokter`.`id_user` = `user`.`id_user`
+WHERE `user`.`role` = 'dokter'
+AND `user`.`deleted_at` IS NULL
+AND `dokter`.`id_user` IS NULL
+ERROR - 2025-04-12 21:41:12 --> Database Error: Unknown column 'user.deleted_at' in 'where clause'
+ERROR - 2025-04-12 21:45:19 --> Unknown column 'user.deleted_at' in 'where clause'
+ERROR - 2025-04-12 21:45:20 --> Query gagal: SELECT *
+FROM `user`
+LEFT JOIN `dokter` ON `dokter`.`id_user` = `user`.`id_user`
+WHERE `user`.`role` = 'dokter'
+AND `user`.`deleted_at` IS NULL
+AND `dokter`.`id_user` IS NULL
+ERROR - 2025-04-12 21:45:20 --> Database Error: Unknown column 'user.deleted_at' in 'where clause'
+ERROR - 2025-04-12 21:46:38 --> Unknown column 'user.deleted_at' in 'where clause'
+ERROR - 2025-04-12 21:46:38 --> Query gagal: SELECT *
+FROM `user`
+LEFT JOIN `dokter` ON `dokter`.`id_user` = `user`.`id_user`
+WHERE `user`.`role` = 'dokter'
+AND `user`.`deleted_at` IS NULL
+AND `dokter`.`id_user` IS NULL
+ERROR - 2025-04-12 21:46:38 --> Database Error: Unknown column 'user.deleted_at' in 'where clause'
+CRITICAL - 2025-04-12 21:49:25 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 H:\My Drive\klinlik\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dokter')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dokter')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-12 21:49:47 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 H:\My Drive\klinlik\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dokter')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dokter')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-12 21:50:16 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 H:\My Drive\klinlik\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dokter')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dokter')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-12 21:50:22 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 H:\My Drive\klinlik\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dokter')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dokter')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-12 21:50:45 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 H:\My Drive\klinlik\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dokter')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dokter')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-12 21:56:50 --> Unknown column 'no_hp' in 'field list'
+ERROR - 2025-04-12 22:01:10 --> Unknown column 'no_hp' in 'field list'
+ERROR - 2025-04-12 22:01:59 --> Unknown column 'no_hp' in 'field list'
+ERROR - 2025-04-12 22:07:36 --> Unknown column 'no_hp' in 'field list'
+ERROR - 2025-04-12 22:09:51 --> Unknown column 'no_hp' in 'field list'
+ERROR - 2025-04-12 22:09:51 --> Gagal menyimpan data ke database
+CRITICAL - 2025-04-12 22:18:43 --> Call to undefined method App\Models\M_belajar::getDokterById
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1237): CodeIgniter\Model->__call('getDokterById', Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->edit_dokter('1')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-12 22:19:57 --> Unknown column 'no_hp' in 'field list'
+ERROR - 2025-04-12 22:20:30 --> Unknown column 'no_hp' in 'field list'
+CRITICAL - 2025-04-12 23:29:20 --> Invalid file: tampilanjadwa.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tampilanjadwa.p...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('tampilanjadwa', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1325): view('tampilanjadwa', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-12 23:31:43 --> Invalid file: tampilanjadwa.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tampilanjadwa.p...')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('tampilanjadwa', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1325): view('tampilanjadwa', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+ERROR - 2025-04-12 23:49:04 --> Table 'klinik_gigi.karyawan' doesn't exist
+CRITICAL - 2025-04-12 23:49:04 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1385): App\Models\M_belajar->getAllKaryawan()
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->edit_jadwal('2')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-12 23:51:04 --> Table 'klinik_gigi.karyawan' doesn't exist
+CRITICAL - 2025-04-12 23:51:04 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(1385): App\Models\M_belajar->getAllKaryawan()
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->edit_jadwal('2')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}

@@ -1,0 +1,1699 @@
+ERROR - 2025-02-25 06:58:01 --> Unknown column 'tanggal' in 'field list'
+CRITICAL - 2025-02-25 06:58:01 --> You must set the database table to be used with your query.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(722): CodeIgniter\Model->builder()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(240): CodeIgniter\Model->__call('insertID', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->checkout()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 07:01:17 --> Unknown column 'tanggal' in 'field list'
+CRITICAL - 2025-02-25 07:01:17 --> You must set the database table to be used with your query.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(722): CodeIgniter\Model->builder()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(259): CodeIgniter\Model->__call('insertID', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->checkout()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 07:01:55 --> Unknown column 'tanggal' in 'field list'
+CRITICAL - 2025-02-25 07:01:55 --> You must set the database table to be used with your query.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(722): CodeIgniter\Model->builder()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(259): CodeIgniter\Model->__call('insertID', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->checkout()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 07:07:29 --> syntax error, unexpected '<', expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/lihat_kera...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/lihat_kera...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-02-25 07:08:15 --> Unknown column 'tanggal' in 'field list'
+CRITICAL - 2025-02-25 07:08:15 --> You must set the database table to be used with your query.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(722): CodeIgniter\Model->builder()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(213): CodeIgniter\Model->__call('insertID', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->checkout()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 07:11:28 --> Unknown column 'tanggal' in 'field list'
+CRITICAL - 2025-02-25 07:11:29 --> You must set the database table to be used with your query.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(722): CodeIgniter\Model->builder()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(214): CodeIgniter\Model->__call('insertID', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->checkout()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 07:11:37 --> Unknown column 'tanggal' in 'field list'
+CRITICAL - 2025-02-25 07:11:37 --> You must set the database table to be used with your query.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(722): CodeIgniter\Model->builder()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(214): CodeIgniter\Model->__call('insertID', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->checkout()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 07:16:45 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2025-02-25 07:16:50 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2025-02-25 07:18:48 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2025-02-25 07:18:49 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2025-02-25 07:18:52 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2025-02-25 07:19:10 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2025-02-25 07:20:59 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2025-02-25 07:25:27 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2025-02-25 07:25:31 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2025-02-25 07:25:32 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2025-02-25 07:27:33 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2025-02-25 07:28:44 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2025-02-25 07:28:47 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2025-02-25 07:33:12 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2025-02-25 07:33:18 --> Unknown column 'tanggal' in 'field list'
+ERROR - 2025-02-25 07:38:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:39:07 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:39:07 --> Gagal menyimpan detail pesanan: {"id_order":2,"id_menu":"1","jumlah":2,"harga":"8000"}
+ERROR - 2025-02-25 07:40:37 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:40:45 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:42:45 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:46:59 --> Unknown column 'jumlah' in 'field list'
+CRITICAL - 2025-02-25 07:49:28 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(10): view('welcome_message')
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 07:50:22 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:23 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:24 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:24 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:25 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:25 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:26 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:27 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:27 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:28 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:28 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:29 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:29 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:30 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:31 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:31 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:32 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:33 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:33 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:34 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:35 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:36 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:37 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:37 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:38 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:38 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:39 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:39 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:40 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:41 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:41 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:42 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:42 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:43 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:44 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:44 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:45 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:45 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:46 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:46 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:53 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:54 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:54 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:55 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:55 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:56 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:57 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:57 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:58 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:58 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:50:59 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:00 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:00 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:01 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:01 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:02 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:02 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:03 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:04 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:04 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:12 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:12 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:13 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:13 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:15 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:15 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:16 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:18 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:19 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:20 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:20 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:21 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:22 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:22 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:23 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:24 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:24 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:57 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:58 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:51:59 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:00 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:00 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:01 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:02 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:03 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:03 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:04 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:05 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:05 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:06 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:06 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:07 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:08 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:08 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:09 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:09 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:10 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:34 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:34 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:35 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:35 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:36 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:36 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:37 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:38 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:38 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:39 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:39 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:40 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:41 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:41 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:42 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:43 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:43 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:44 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:44 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:52:45 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:47 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:48 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:49 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:49 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:50 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:50 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:51 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:52 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:53 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:53 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:54 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:55 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:56 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:56 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:57 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:58 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:58 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:59 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:53:59 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:54:00 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:35 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:35 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:36 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:37 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:37 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:38 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:38 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:39 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:39 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:40 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:41 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:41 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:42 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:42 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:43 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:44 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:44 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:45 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:45 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:46 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:48 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:48 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:49 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:49 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:50 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:51 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:51 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:52 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:53 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:53 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:54 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:54 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:55 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:55 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:56 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:56 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:57 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:58 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:58 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:55:59 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:06 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:07 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:08 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:08 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:09 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:09 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:10 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:11 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:11 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:12 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:12 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:13 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:15 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:15 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:16 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:18 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:50 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:51 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:52 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:52 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:53 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:54 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:54 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:55 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:56 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:56 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:57 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:58 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:58 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:56:59 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:57:00 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:57:00 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:57:01 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:57:02 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:57:03 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:57:03 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:06 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:07 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:08 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:09 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:10 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:10 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:11 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:11 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:12 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:13 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:13 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:15 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:16 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:16 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:18 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:18 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:55 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:55 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:56 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:56 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:57 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:58 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:58 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:58:59 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:00 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:00 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:01 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:01 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:02 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:03 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:03 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:04 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:04 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:05 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:06 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:06 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:08 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:08 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:09 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:10 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:10 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:11 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:12 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:12 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:13 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:15 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:16 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:16 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:18 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:19 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:19 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:20 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:27 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:28 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:28 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:29 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:30 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:30 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:31 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:31 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:32 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:33 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:33 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:34 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:35 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:35 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:36 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:37 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:37 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:38 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:38 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 07:59:39 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:11 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:12 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:13 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:13 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:15 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:15 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:16 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:18 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:18 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:19 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:19 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:20 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:21 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:21 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:22 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:00:22 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:25 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:26 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:27 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:28 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:29 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:30 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:30 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:31 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:32 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:33 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:34 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:34 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:35 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:36 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:37 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:38 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:38 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:39 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:40 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:01:41 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:05:51 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:05:52 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:05:52 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:05:53 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:05:56 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:05:56 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:05:57 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:05:58 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:05:58 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:05:59 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:05:59 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:00 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:01 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:01 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:02 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:02 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:03 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:04 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:04 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:05 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:06 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:06 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:07 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:07 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:09 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:10 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:10 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:11 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:12 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:12 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:13 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:15 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:15 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:16 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:18 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:18 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:19 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:20 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:20 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:21 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:28 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:29 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:29 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:30 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:31 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:31 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:32 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:33 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:33 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:34 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:34 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:35 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:36 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:36 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:37 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:37 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:38 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:38 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:39 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:06:40 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:12 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:12 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:13 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:13 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:15 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:15 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:16 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:16 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:18 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:19 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:19 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:20 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:20 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:21 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:21 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:22 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:07:23 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:25 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:26 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:26 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:27 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:27 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:28 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:28 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:29 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:30 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:30 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:31 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:31 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:32 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:33 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:33 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:34 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:34 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:35 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:35 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:08:36 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:12:51 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:12:51 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:12:52 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:12:52 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:12:53 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:12:54 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:12:54 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:12:55 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:12:55 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:12:56 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:12:57 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:12:57 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:12:58 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:12:59 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:12:59 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:00 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:00 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:01 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:02 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:02 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:04 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:04 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:05 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:06 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:06 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:07 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:07 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:08 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:09 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:09 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:10 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:10 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:11 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:11 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:12 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:13 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:13 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:15 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:22 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:22 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:23 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:23 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:24 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:24 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:25 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:25 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:26 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:26 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:27 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:28 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:28 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:29 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:29 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:30 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:30 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:31 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:32 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:13:32 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:05 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:05 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:06 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:06 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:07 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:07 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:08 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:08 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:09 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:10 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:10 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:11 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:12 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:13 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:13 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:14 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:15 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:16 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:14:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:19 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:20 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:20 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:21 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:21 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:22 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:22 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:23 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:23 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:24 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:25 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:25 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:26 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:26 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:27 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:28 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:28 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:29 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:29 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:15:30 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 08:18:13 --> Unknown column 'status' in 'field list'
+ERROR - 2025-02-25 09:01:43 --> Unknown column 'status' in 'field list'
+ERROR - 2025-02-25 09:02:57 --> Unknown column 'status' in 'field list'
+ERROR - 2025-02-25 09:26:06 --> Unknown column 'status' in 'field list'
+ERROR - 2025-02-25 09:27:36 --> Unknown column 'status' in 'field list'
+ERROR - 2025-02-25 09:57:05 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-02-25 10:04:00 --> Unknown column 'status' in 'field list'
+CRITICAL - 2025-02-25 10:23:04 --> syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/payment/55...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/payment/55...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-02-25 10:24:17 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(384): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-02-25 10:24:37 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(384): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+ERROR - 2025-02-25 10:26:02 --> Unknown column 'tanggal_pembayaran' in 'field list'
+CRITICAL - 2025-02-25 10:26:51 --> Cannot redeclare App\Controllers\Home::proses_pembayaran()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-02-25 10:28:11 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-25 10:30:13 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-25 10:30:51 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-25 10:30:56 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-25 10:31:04 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-25 10:36:35 --> Column 'metode_pembayaran' cannot be null
+ERROR - 2025-02-25 10:36:38 --> Column 'metode_pembayaran' cannot be null
+ERROR - 2025-02-25 10:36:39 --> Column 'metode_pembayaran' cannot be null
+ERROR - 2025-02-25 10:36:44 --> Column 'metode_pembayaran' cannot be null
+ERROR - 2025-02-25 10:38:35 --> Column 'metode_pembayaran' cannot be null
+CRITICAL - 2025-02-25 10:40:40 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('payment', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(345): view('payment', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->payment('564')
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-02-25 10:41:01 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('payment', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(345): view('payment', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->payment('565')
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-02-25 10:43:30 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('id_order', 'update')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'id_order')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(374): CodeIgniter\Model->update('pembayaran', 'id_order', '565', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 10:45:23 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('id_order', 'update')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'id_order')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(377): CodeIgniter\Model->update('pembayaran', 'id_order', '565', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 10:48:00 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('id_order', 'update')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'id_order')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(378): CodeIgniter\Model->update('pembayaran', 'id_order', '565', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 10:48:52 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('id_order', 'update')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'id_order')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(379): CodeIgniter\Model->update('pembayaran', 'id_order', '565', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 10:50:03 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('id_order', 'update')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'id_order')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(383): CodeIgniter\Model->update('pembayaran', 'id_order', '565', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 10:50:10 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('id_order', 'update')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'id_order')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(383): CodeIgniter\Model->update('pembayaran', 'id_order', '565', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 10:50:15 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('id_order', 'update')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'id_order')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(383): CodeIgniter\Model->update('pembayaran', 'id_order', '565', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 11:11:33 --> array_column() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'H:\\My Drive\\fas...', 336, Array)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(336): array_column(Object(stdClass), 'id_menu')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->payment('567')
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+CRITICAL - 2025-02-25 11:12:42 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(396): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-02-25 11:13:12 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(396): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-02-25 11:14:50 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(396): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+ERROR - 2025-02-25 11:30:29 --> Unknown column 'harga' in 'field list'
+ERROR - 2025-02-25 11:30:33 --> Unknown column 'harga' in 'field list'
+ERROR - 2025-02-25 11:32:20 --> Unknown column 'harga' in 'field list'
+ERROR - 2025-02-25 11:34:26 --> Unknown column 'harga' in 'field list'
+ERROR - 2025-02-25 11:37:35 --> Unknown column 'harga' in 'field list'
+ERROR - 2025-02-25 11:37:39 --> Unknown column 'harga' in 'field list'
+ERROR - 2025-02-25 11:38:38 --> Unknown column 'harga' in 'field list'
+ERROR - 2025-02-25 11:39:42 --> Unknown column 'harga' in 'field list'
+CRITICAL - 2025-02-25 11:47:04 --> syntax error, unexpected '$session' (T_VARIABLE)
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/checkout')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/checkout')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-02-25 11:47:54 --> syntax error, unexpected '{'
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/checkout')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/checkout')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-02-25 11:50:12 --> syntax error, unexpected 'proses_checkout' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/checkout')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/checkout')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-02-25 11:52:26 --> Unknown column 'harga' in 'field list'
+ERROR - 2025-02-25 11:52:36 --> Unknown column 'harga' in 'field list'
+ERROR - 2025-02-25 11:56:21 --> Unknown column 'harga' in 'field list'
+ERROR - 2025-02-25 11:56:21 --> Gagal menyimpan detail pesanan.
+ERROR - 2025-02-25 11:56:31 --> Unknown column 'harga' in 'field list'
+ERROR - 2025-02-25 11:56:31 --> Gagal menyimpan detail pesanan.
+ERROR - 2025-02-25 11:58:15 --> Tidak ada menu dalam pesanan untuk ID order 585
+CRITICAL - 2025-02-25 11:58:16 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 11:59:22 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 11:59:56 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 12:00:14 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 12:00:41 --> Call to undefined method stdClass::getResultArray()
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 12:01:08 --> Call to undefined method stdClass::getResult()
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 12:01:12 --> Call to undefined method stdClass::getResult()
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 12:01:45 --> Call to undefined method stdClass::getResultArray()
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 12:01:46 --> Call to undefined method stdClass::getResultArray()
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 12:01:48 --> Call to undefined method stdClass::getResultArray()
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 12:02:20 --> You must set the database table to be used with your query.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(722): CodeIgniter\Model->builder()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(415): CodeIgniter\Model->__call('where', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 12:02:47 --> You must set the database table to be used with your query.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(415): CodeIgniter\Model->builder()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+CRITICAL - 2025-02-25 12:02:50 --> You must set the database table to be used with your query.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(415): CodeIgniter\Model->builder()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+CRITICAL - 2025-02-25 12:03:20 --> You must set the database table to be used with your query.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(415): CodeIgniter\Model->builder()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+CRITICAL - 2025-02-25 12:04:28 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(425): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+ERROR - 2025-02-25 12:05:01 --> Tidak ada menu dalam pesanan untuk ID order 586
+CRITICAL - 2025-02-25 12:05:02 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(425): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-02-25 12:05:46 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(425): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+ERROR - 2025-02-25 12:06:06 --> Tidak ada menu dalam pesanan untuk ID order 587
+CRITICAL - 2025-02-25 12:06:06 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(425): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+ERROR - 2025-02-25 12:08:17 --> Tidak ada menu dalam pesanan untuk ID order 588
+CRITICAL - 2025-02-25 12:08:18 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(427): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-02-25 12:09:35 --> Too few arguments to function App\Controllers\Home::payment(), 0 passed in H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->payment()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 12:11:12 --> Too few arguments to function App\Controllers\Home::payment(), 0 passed in H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->payment()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 12:11:17 --> Too few arguments to function App\Controllers\Home::payment(), 0 passed in H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->payment()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 12:11:39 --> Too few arguments to function App\Controllers\Home::payment(), 0 passed in H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->payment()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-02-25 12:19:24 --> Tidak ada menu dalam pesanan untuk ID order 589
+CRITICAL - 2025-02-25 12:19:25 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(425): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+ERROR - 2025-02-25 12:19:53 --> Tidak ada menu dalam pesanan untuk ID order 590
+CRITICAL - 2025-02-25 12:19:53 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(425): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-02-25 12:23:22 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(387): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-02-25 12:23:47 --> You must set the database table to be used with your query.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(722): CodeIgniter\Model->builder()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(326): CodeIgniter\Model->__call('find_order', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->payment('591')
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 12:26:32 --> You must set the database table to be used with your query.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(722): CodeIgniter\Model->builder()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(319): CodeIgniter\Model->__call('find_order', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->payment('591')
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 12:26:57 --> You must set the database table to be used with your query.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(722): CodeIgniter\Model->builder()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(319): CodeIgniter\Model->__call('find_order', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->payment('591')
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 12:36:05 --> Unknown column 'metode_pembayaran' in 'field list'
+CRITICAL - 2025-02-25 12:36:05 --> Invalid argument supplied for foreach()
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Views\pesanan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'H:\\My Drive\\fas...', 14, Array)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include('H:\\My Drive\\fas...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(361): view('pesanan')
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#10 {main}
+ERROR - 2025-02-25 12:41:55 --> Unknown column 'metode_pembayaran' in 'field list'
+CRITICAL - 2025-02-25 12:41:56 --> Invalid argument supplied for foreach()
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Views\pesanan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'H:\\My Drive\\fas...', 14, Array)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include('H:\\My Drive\\fas...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(361): view('pesanan')
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#10 {main}
+CRITICAL - 2025-02-25 12:43:01 --> Invalid file: daftar_pesanan.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('daftar_pesanan....')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('daftar_pesanan', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(367): view('daftar_pesanan', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 12:43:45 --> Invalid file: daftar_pesanan.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('daftar_pesanan....')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('daftar_pesanan', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(377): view('daftar_pesanan', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 12:44:39 --> Invalid file: daftar_pesanan.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('daftar_pesanan....')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('daftar_pesanan', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(380): view('daftar_pesanan', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 12:45:07 --> Invalid file: daftar_pesanan.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('daftar_pesanan....')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('daftar_pesanan', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(380): view('daftar_pesanan', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 12:47:03 --> Invalid file: daftar_pesanan.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('daftar_pesanan....')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('daftar_pesanan', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(394): view('daftar_pesanan', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 12:47:12 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('id_order', 'update')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'id_order')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(361): CodeIgniter\Model->update('orders', 'id_order', '591', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 12:47:13 --> Duplicate entry '591' for key 'id_order'
+CRITICAL - 2025-02-25 12:47:13 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('id_order', 'update')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'id_order')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(361): CodeIgniter\Model->update('orders', 'id_order', '591', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 12:48:16 --> Duplicate entry '591' for key 'id_order'
+CRITICAL - 2025-02-25 12:48:16 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('id_order', 'update')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'id_order')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(361): CodeIgniter\Model->update('orders', 'id_order', '591', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 12:48:19 --> Duplicate entry '591' for key 'id_order'
+CRITICAL - 2025-02-25 12:48:19 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('id_order', 'update')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'id_order')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(361): CodeIgniter\Model->update('orders', 'id_order', '591', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 12:48:23 --> Duplicate entry '591' for key 'id_order'
+CRITICAL - 2025-02-25 12:48:23 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('id_order', 'update')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'id_order')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(361): CodeIgniter\Model->update('orders', 'id_order', '591', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 12:48:37 --> Duplicate entry '591' for key 'id_order'
+CRITICAL - 2025-02-25 12:48:37 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('id_order', 'update')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'id_order')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(361): CodeIgniter\Model->update('orders', 'id_order', '591', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 12:50:14 --> Unknown column 'metode_pembayaran' in 'field list'
+CRITICAL - 2025-02-25 12:50:15 --> Invalid file: daftar_pesanan.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('daftar_pesanan....')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('daftar_pesanan', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(377): view('daftar_pesanan', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 12:54:49 --> Unknown column 'tanggal_pembayaran' in 'field list'
+CRITICAL - 2025-02-25 12:54:50 --> Invalid file: daftar_pesanan.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('daftar_pesanan....')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('daftar_pesanan', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(376): view('daftar_pesanan', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 12:54:51 --> Unknown column 'tanggal_pembayaran' in 'field list'
+CRITICAL - 2025-02-25 12:54:51 --> Invalid file: daftar_pesanan.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('daftar_pesanan....')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('daftar_pesanan', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(376): view('daftar_pesanan', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 12:57:37 --> Invalid file: daftar_pesanan.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('daftar_pesanan....')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('daftar_pesanan', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(395): view('daftar_pesanan', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 12:57:42 --> Unknown column 'tanggal_pembayaran' in 'field list'
+CRITICAL - 2025-02-25 12:57:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::affectedRows()
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->proses_pembayaran()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-02-25 12:58:21 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-25 12:58:21 --> Failed to update payment status for Order ID: 591
+CRITICAL - 2025-02-25 12:58:22 --> Invalid file: daftar_pesanan.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('daftar_pesanan....')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('daftar_pesanan', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(396): view('daftar_pesanan', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 13:01:43 --> Invalid file: layout/template.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(396): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-02-25 13:03:41 --> Invalid file: layout/template.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(400): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-02-25 13:04:11 --> Invalid file: layout/template.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('layout/template', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(400): view('layout/template', Array)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 13:05:45 --> Invalid file: layout/template.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(400): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-02-25 13:06:46 --> Invalid file: layout/template.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(399): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-02-25 13:06:53 --> Invalid file: layout/template.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(399): view('pesanan', Array)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-02-25 13:07:53 --> View themes, no current section.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Views\pesanan.php(42): CodeIgniter\View\View->endSection()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include('H:\\My Drive\\fas...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(399): view('pesanan', Array)
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan()
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#10 {main}
+CRITICAL - 2025-02-25 14:17:45 --> Invalid argument supplied for foreach()
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Views\menu1.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'H:\\My Drive\\fas...', 14, Array)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include('H:\\My Drive\\fas...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('menu1', Array, true)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(127): view('menu1')
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_menu()
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#10 {main}
+ERROR - 2025-02-25 14:22:38 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-25 14:22:38 --> Failed to update payment status for Order ID: 592
+ERROR - 2025-02-25 14:23:57 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-25 14:23:57 --> Failed to update payment status for Order ID: 593
+ERROR - 2025-02-25 14:25:28 --> No orders found for customer ID: 2
+CRITICAL - 2025-02-25 14:25:29 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(10): view('welcome_message')
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 14:25:43 --> No orders found for customer ID: 2
+CRITICAL - 2025-02-25 14:25:44 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(10): view('welcome_message')
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 14:26:14 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(10): view('welcome_message')
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 14:26:19 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(10): view('welcome_message')
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 14:26:51 --> Invalid file: welcome_message.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(10): view('welcome_message')
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-02-25 14:34:08 --> Unknown column 'tanggal_pembayaran' in 'field list'
+CRITICAL - 2025-02-25 14:45:37 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftar_pes...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftar_pes...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-02-25 14:45:38 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/lihat_kera...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/lihat_kera...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-02-25 14:45:38 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftar_men...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftar_men...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-02-25 14:45:39 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/hai')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/hai')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-02-25 14:45:40 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/lihat_kera...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/lihat_kera...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-02-25 14:45:46 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/hai')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/hai')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+CRITICAL - 2025-02-25 14:54:20 --> syntax error, unexpected 'ppublic' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftar_pes...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftar_pes...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-02-25 15:03:17 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-25 15:03:17 --> Failed to update payment status for Order ID: 603
+ERROR - 2025-02-25 15:04:40 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-25 15:04:40 --> Failed to update payment status for Order ID: 604
+CRITICAL - 2025-02-25 15:06:42 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ';'
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftar_pes...')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftar_pes...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-02-25 15:08:15 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-25 15:08:15 --> Failed to update payment status for Order ID: 605
+ERROR - 2025-02-25 15:11:01 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-25 15:11:01 --> Failed to update payment status for Order ID: 606
+CRITICAL - 2025-02-25 15:12:34 --> Cannot redeclare App\Controllers\Home::proses_pembayaran()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-02-25 15:13:04 --> Cannot redeclare App\Controllers\Home::proses_pembayaran()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-02-25 15:13:09 --> Cannot redeclare App\Controllers\Home::proses_pembayaran()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-02-25 15:13:53 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-25 15:13:53 --> Failed to update payment status for Order ID: 607
+CRITICAL - 2025-02-25 15:16:00 --> Invalid file: orders.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('orders.php')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('orders', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(440): view('orders')
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->orders()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 15:24:08 --> Invalid file: orders.php
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('orders.php')
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('orders', Array, true)
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(454): view('orders')
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->orders()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-02-25 15:36:41 --> You must set the database table to be used with your query.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(441): CodeIgniter\Model->builder()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->driver_orders()
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+CRITICAL - 2025-02-25 15:37:17 --> You must set the database table to be used with your query.
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(440): CodeIgniter\Model->builder()
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->driver_orders()
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+CRITICAL - 2025-02-25 15:38:42 --> Call to a member function table() on null
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->driver_orders()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 15:38:43 --> Call to a member function table() on null
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->driver_orders()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 15:38:44 --> Call to a member function table() on null
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->driver_orders()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 15:38:53 --> Call to a member function table() on null
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->driver_orders()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-02-25 19:04:36 --> Unknown column 'metode_pembayaran' in 'field list'
+ERROR - 2025-02-25 19:04:47 --> Unknown column 'metode_pembayaran' in 'field list'
+ERROR - 2025-02-25 19:05:45 --> Unknown column 'metode_pembayaran' in 'field list'
+ERROR - 2025-02-25 19:05:55 --> Unknown column 'metode_pembayaran' in 'field list'
+ERROR - 2025-02-25 19:06:15 --> Unknown column 'metode_pembayaran' in 'field list'
+ERROR - 2025-02-25 19:06:52 --> Unknown column 'metode_pembayaran' in 'field list'
+ERROR - 2025-02-25 19:09:35 --> Unknown column 'metode_pembayaran' in 'field list'
+ERROR - 2025-02-25 19:11:44 --> Unknown column 'metode_pembayaran' in 'field list'
+ERROR - 2025-02-25 19:11:44 --> Gagal menyimpan pesanan: {"code":1054,"message":"Unknown column 'metode_pembayaran' in 'field list'"}
+ERROR - 2025-02-25 19:15:41 --> Unknown column 'metode_pembayaran' in 'field list'
+ERROR - 2025-02-25 19:15:51 --> Unknown column 'metode_pembayaran' in 'field list'
+ERROR - 2025-02-25 19:16:40 --> Unknown column 'metode_pembayaran' in 'field list'
+ERROR - 2025-02-25 19:17:36 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-25 19:17:36 --> Failed to update payment status for Order ID: 608
+ERROR - 2025-02-25 19:38:16 --> Table 'fast_food.customers' doesn't exist
+CRITICAL - 2025-02-25 19:38:16 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-02-25 19:38:36 --> Table 'fast_food.customers' doesn't exist
+CRITICAL - 2025-02-25 19:38:36 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-02-25 19:39:22 --> Table 'fast_food.customers' doesn't exist
+CRITICAL - 2025-02-25 19:39:23 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-02-25 19:39:46 --> Table 'fast_food.customers' doesn't exist
+CRITICAL - 2025-02-25 19:39:46 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-02-25 19:39:59 --> Table 'fast_food.customers' doesn't exist
+CRITICAL - 2025-02-25 19:39:59 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->daftar_pesanan_driver()
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-02-25 20:02:02 --> Invalid argument supplied for foreach()
+#0 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Views\tampilankaryawan.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'H:\\My Drive\\fas...', 62, Array)
+#1 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(210): include('H:\\My Drive\\fas...')
+#2 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('tampilankaryawa...', Array, true)
+#4 H:\My Drive\fastfood\CodeIgniter4-4.1.9\app\Controllers\Home.php(627): view('tampilankaryawa...', Array)
+#5 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#6 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\fastfood\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\fastfood\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#10 {main}
+ERROR - 2025-02-25 20:03:48 --> Unknown column 'tanggal_pembayaran' in 'field list'
+ERROR - 2025-02-25 20:03:49 --> Failed to update payment status for Order ID: 609

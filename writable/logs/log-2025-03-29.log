@@ -1,0 +1,312 @@
+ERROR - 2025-03-29 10:00:35 --> Column 'username' cannot be null
+ERROR - 2025-03-29 10:58:13 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2025-03-29 10:58:13 --> Call to a member function getFirstRow() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(319): CodeIgniter\BaseModel->first()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+ERROR - 2025-03-29 11:01:34 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2025-03-29 11:01:34 --> Call to a member function getFirstRow() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(319): CodeIgniter\BaseModel->first()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+ERROR - 2025-03-29 11:06:06 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2025-03-29 11:06:06 --> Call to a member function getFirstRow() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(315): CodeIgniter\BaseModel->first()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+ERROR - 2025-03-29 11:06:27 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2025-03-29 11:06:27 --> Call to a member function getFirstRow() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(315): CodeIgniter\BaseModel->first()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+ERROR - 2025-03-29 11:09:55 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2025-03-29 11:09:55 --> Call to a member function getFirstRow() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(315): CodeIgniter\BaseModel->first()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+ERROR - 2025-03-29 11:10:33 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2025-03-29 11:10:33 --> Call to a member function getFirstRow() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(315): CodeIgniter\BaseModel->first()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+ERROR - 2025-03-29 11:11:48 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2025-03-29 11:11:48 --> Call to a member function getFirstRow() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(319): CodeIgniter\BaseModel->first()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+CRITICAL - 2025-03-29 04:38:32 --> Cannot redeclare App\Controllers\Home::laporan_transaksi()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-29 04:40:00 --> Invalid file: laporan_transaksi.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_transak...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('laporan_transak...', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(830): view('laporan_transak...')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-03-29 04:40:58 --> Invalid file: laporan_transaksi.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_transak...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('laporan_transak...', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(830): view('laporan_transak...')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-03-29 04:41:15 --> Invalid file: laporan_transaksi.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_transak...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('laporan_transak...', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(830): view('laporan_transak...')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-03-29 04:41:21 --> Invalid file: laporan_transaksi.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_transak...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('laporan_transak...', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(830): view('laporan_transak...')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-03-29 04:47:51 --> Cannot redeclare App\Controllers\Home::laporan_transaksi()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-29 04:47:53 --> Cannot redeclare App\Controllers\Home::laporan_transaksi()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-29 04:47:59 --> Cannot redeclare App\Controllers\Home::laporan_transaksi()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-29 04:48:00 --> Cannot redeclare App\Controllers\Home::laporan_transaksi()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-29 04:48:03 --> Cannot redeclare App\Controllers\Home::laporan_transaksi()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-29 04:56:45 --> Invalid file: laporantransaksi.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporantransaks...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('laporantransaks...', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1484): view('laporantransaks...', Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-03-29 04:57:05 --> Invalid file: laporan_transaksi.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_transak...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('laporan_transak...', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1484): view('laporan_transak...', Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-03-29 04:59:09 --> Invalid file: laporantransaksi.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporantransaks...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('laporantransaks...', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1484): view('laporantransaks...', Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-03-29 05:07:03 --> Invalid file: laporantransaksi.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporantransaks...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('laporantransaks...', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1474): view('laporantransaks...', Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-03-29 05:08:04 --> Table 'fast_food.order' doesn't exist
+CRITICAL - 2025-03-29 05:08:04 --> Call to a member function getResult() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1484): App\Models\M_belajar->filter('pembayaran', 'order', 'pembayaran.id_o...', 'tanggal_pembaya...', 'tanggal_pembaya...', '2024-03-01', '2024-03-29')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->cetak_pdf()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-03-29 10:15:32 --> Table 'fast_food.pesanan' doesn't exist
+CRITICAL - 2025-03-29 10:15:32 --> Call to a member function getResult() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1467): App\Models\M_belajar->filter2('tanggal_pesanan...', 'tanggal_pesanan...', '2025-02-06', '2025-03-29')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->tabelpt()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-03-29 10:16:33 --> Table 'fast_food.order' doesn't exist
+CRITICAL - 2025-03-29 10:16:34 --> Call to a member function getResult() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1467): App\Models\M_belajar->filter3('tanggal_pembaya...', 'tanggal_pembaya...', '2025-02-06', '2025-03-29')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->tabelpt()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-03-29 10:17:38 --> Table 'fast_food.order' doesn't exist
+CRITICAL - 2025-03-29 10:17:39 --> Call to a member function getResult() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1467): App\Models\M_belajar->filter3('tanggal_pembaya...', 'tanggal_pembaya...', '2025-02-06', '2025-03-29')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->tabelpt()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-03-29 10:17:47 --> Table 'fast_food.order' doesn't exist
+CRITICAL - 2025-03-29 10:17:47 --> Call to a member function getResult() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1467): App\Models\M_belajar->filter3('tanggal_pembaya...', 'tanggal_pembaya...', '2025-02-06', '2025-03-29')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->tabelpt()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-03-29 10:20:05 --> Table 'fast_food.order' doesn't exist
+CRITICAL - 2025-03-29 10:20:05 --> Call to a member function getResult() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1467): App\Models\M_belajar->filter3('tanggal_pembaya...', 'tanggal_pembaya...', '2025-02-06', '2025-03-29')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->tabelpt()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-03-29 10:20:11 --> Table 'fast_food.order' doesn't exist
+CRITICAL - 2025-03-29 10:20:11 --> Call to a member function getResult() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1467): App\Models\M_belajar->filter3('tanggal_pembaya...', 'tanggal_pembaya...', '2025-02-06', '2025-03-29')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->tabelpt()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-03-29 10:21:04 --> Table 'fast_food.order' doesn't exist
+CRITICAL - 2025-03-29 10:21:04 --> Call to a member function getResult() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1467): App\Models\M_belajar->filter3('tanggal_pembaya...', 'tanggal_pembaya...', '2025-02-06', '2025-03-29')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->tabelpt()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#6 {main}
+ERROR - 2025-03-29 10:21:37 --> Table 'fast_food.order' doesn't exist
+ERROR - 2025-03-29 10:23:38 --> Table 'fast_food.order' doesn't exist
+ERROR - 2025-03-29 10:26:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`>=` >= '2025-02-06 00:00:00'
+AND `tanggal_pembayaran` `<=` <= '2025-03-29 23...' at line 4
+CRITICAL - 2025-03-29 10:32:04 --> Invalid argument supplied for foreach()
+#0 H:\My Drive\fastfood\fastfoodbaru\app\Views\tabelpt.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'H:\\My Drive\\fas...', 41, Array)
+#1 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(210): include('H:\\My Drive\\fas...')
+#2 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('tabelpt', Array, true)
+#4 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(1470): view('tabelpt', Array)
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->tabelpt()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#10 {main}
+CRITICAL - 2025-03-29 10:33:43 --> Invalid file: laporan_keuangan.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_keuanga...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('laporan_keuanga...', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(830): view('laporan_keuanga...')
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->laporan_keuangan()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-03-29 10:47:33 --> Too few arguments to function App\Controllers\Home::edit_customer(), 0 passed in H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->edit_customer()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-29 10:57:07 --> Too few arguments to function App\Controllers\Home::hapus_customer(), 0 passed in H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hapus_customer()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-29 11:00:09 --> Too few arguments to function App\Controllers\Home::hapus_customer(), 0 passed in H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hapus_customer()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-29 11:00:14 --> Too few arguments to function App\Controllers\Home::hapus_customer(), 0 passed in H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hapus_customer()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-29 11:01:08 --> Too few arguments to function App\Controllers\Home::hapus_customer(), 0 passed in H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hapus_customer()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-29 23:53:42 --> session_regenerate_id(): Cannot regenerate session id - session is not active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_regener...', 'H:\\My Drive\\fas...', 411, Array)
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Session\Session.php(411): session_regenerate_id(false)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(354): CodeIgniter\Session\Session->regenerate()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->logout()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}

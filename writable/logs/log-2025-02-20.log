@@ -1,0 +1,27 @@
+CRITICAL - 2025-02-20 06:13:44 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/user1')
+#1 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/user1')
+#2 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Videos\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\V...')
+#6 {main}
+CRITICAL - 2025-02-20 06:13:45 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/user1')
+#1 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/user1')
+#2 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Videos\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\V...')
+#6 {main}
+CRITICAL - 2025-02-20 06:15:07 --> You must set the database table to be used with your query.
+#0 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\Model.php(176): CodeIgniter\Model->builder()
+#2 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 C:\Users\user\Videos\CodeIgniter4-4.1.9\app\Controllers\Home.php(156): CodeIgniter\BaseModel->findAll()
+#4 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#5 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\user\Videos\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\user\Videos\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\V...')
+#9 {main}

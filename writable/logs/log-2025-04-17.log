@@ -1,0 +1,211 @@
+CRITICAL - 2025-04-17 10:23:36 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->booking('1')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#5 {main}
+CRITICAL - 2025-04-17 10:37:18 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->booking('1')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#5 {main}
+CRITICAL - 2025-04-17 10:38:44 --> syntax error, unexpected ';', expecting ')'
+#0 H:\My Drive\klinlik\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/booking/1')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/booking/1')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-17 10:39:02 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->booking('1')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#5 {main}
+CRITICAL - 2025-04-17 10:39:06 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->booking('1')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#5 {main}
+CRITICAL - 2025-04-17 10:46:21 --> Call to undefined method stdClass::getRow()
+#0 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->booking('1')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#5 {main}
+CRITICAL - 2025-04-17 10:46:36 --> Call to undefined method App\Models\M_belajar::join2
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(221): CodeIgniter\Model->__call('join2', Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->booking('1')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-17 10:47:27 --> Too few arguments to function App\Models\M_belajar::join(), 3 passed in H:\My Drive\klinlik\klinik\app\Controllers\Home.php on line 221 and exactly 4 expected
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(221): App\Models\M_belajar->join('jadwal', 'dokter', 'jadwal.id_dokte...')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->booking('1')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-17 10:47:45 --> Too few arguments to function App\Models\M_belajar::join3(), 3 passed in H:\My Drive\klinlik\klinik\app\Controllers\Home.php on line 221 and exactly 8 expected
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(221): App\Models\M_belajar->join3('jadwal', 'dokter', 'jadwal.id_dokte...')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->booking('1')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-17 11:14:25 --> Call to undefined method stdClass::getRow()
+#0 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->simpan_booking()
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#5 {main}
+CRITICAL - 2025-04-17 11:14:58 --> Invalid file: dashboard.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(16): view('dashboard')
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-17 11:18:59 --> Invalid file: dashboard.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(16): view('dashboard')
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-17 11:21:02 --> Invalid file: dashboard.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(16): view('dashboard')
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-17 11:27:46 --> Call to undefined method stdClass::getRow()
+#0 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->simpan_booking()
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#5 {main}
+CRITICAL - 2025-04-17 11:28:07 --> Invalid file: dashboard.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(16): view('dashboard')
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-17 11:28:15 --> Invalid file: dashboard.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(16): view('dashboard')
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-17 11:45:38 --> Too few arguments to function App\Models\M_belajar::join3(), 6 passed in H:\My Drive\klinlik\klinik\app\Controllers\Home.php on line 295 and exactly 8 expected
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(295): App\Models\M_belajar->join3('booking', 'user as pasien', 'user as dokter', 'layanan', Array, Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-17 11:46:15 --> Too few arguments to function App\Models\M_belajar::join3(), 6 passed in H:\My Drive\klinlik\klinik\app\Controllers\Home.php on line 295 and exactly 8 expected
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(295): App\Models\M_belajar->join3('booking', 'user as pasien', 'user as dokter', 'layanan', Array, Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-17 11:46:39 --> Too few arguments to function App\Models\M_belajar::join3(), 6 passed in H:\My Drive\klinlik\klinik\app\Controllers\Home.php on line 295 and exactly 8 expected
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(295): App\Models\M_belajar->join3('booking', 'user . pasien', 'user. dokter', 'layanan', Array, Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-17 11:55:58 --> Too few arguments to function App\Models\M_belajar::join3(), 6 passed in H:\My Drive\klinlik\klinik\app\Controllers\Home.php on line 295 and exactly 8 expected
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(295): App\Models\M_belajar->join3('booking', 'user . pasien', 'user. dokter', 'layanan', Array, Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-17 12:20:01 --> Too few arguments to function App\Models\M_belajar::join3(), 6 passed in H:\My Drive\klinlik\klinik\app\Controllers\Home.php on line 295 and exactly 8 expected
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(295): App\Models\M_belajar->join3('booking', 'user . pasien', 'user. dokter', 'layanan', Array, Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-17 12:21:43 --> Too few arguments to function App\Models\M_belajar::join3(), 6 passed in H:\My Drive\klinlik\klinik\app\Controllers\Home.php on line 295 and exactly 8 expected
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(295): App\Models\M_belajar->join3('booking', 'user . pasien', 'user. dokter', 'layanan', Array, Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-17 12:37:19 --> Too few arguments to function App\Models\M_belajar::join3(), 6 passed in H:\My Drive\klinlik\klinik\app\Controllers\Home.php on line 295 and exactly 8 expected
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(295): App\Models\M_belajar->join3('booking', 'user . pasien', 'user. dokter', 'layanan', Array, Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-17 12:51:37 --> Too few arguments to function App\Models\M_belajar::join3(), 6 passed in H:\My Drive\klinlik\klinik\app\Controllers\Home.php on line 295 and exactly 8 expected
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(295): App\Models\M_belajar->join3('booking', 'user . pasien', 'user. dokter', 'layanan', Array, Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-17 12:57:07 --> Too few arguments to function App\Models\M_belajar::join3(), 6 passed in H:\My Drive\klinlik\klinik\app\Controllers\Home.php on line 295 and exactly 8 expected
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(295): App\Models\M_belajar->join3('booking', 'user . pasien', 'user. dokter', 'layanan', Array, Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-17 12:58:11 --> Too few arguments to function App\Models\M_belajar::join3(), 6 passed in H:\My Drive\klinlik\klinik\app\Controllers\Home.php on line 295 and exactly 8 expected
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(295): App\Models\M_belajar->join3('booking', 'user . pasien', 'user. dokter', 'layanan', Array, Array)
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}

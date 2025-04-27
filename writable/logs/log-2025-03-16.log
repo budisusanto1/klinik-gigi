@@ -1,0 +1,37 @@
+CRITICAL - 2025-03-16 19:43:20 --> Class 'DB' not found
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#3 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(24): view('header')
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+ERROR - 2025-03-16 19:44:19 --> Table 'fast_food.pengaturan' doesn't exist
+CRITICAL - 2025-03-16 19:44:19 --> Call to a member function getRow() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(210): include()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#3 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(24): view('header')
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-03-16 20:02:30 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in H:\My Drive\fastfood\fastfoodbaru\system\Helpers\url_helper.php on line 87
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Views\footer.php(5): base_url(NULL)
+#3 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(210): include('H:\\My Drive\\fas...')
+#4 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('footer', Array, true)
+#6 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(27): view('footer')
+#7 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#8 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#12 {main}

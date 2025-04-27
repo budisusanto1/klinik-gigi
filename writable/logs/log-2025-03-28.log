@@ -1,0 +1,197 @@
+CRITICAL - 2025-03-28 21:32:56 --> Call to a member function table() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-28 21:33:43 --> Invalid file: log_activity_view.php
+#0 H:\My Drive\fastfood\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('log_activity_vi...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('log_activity_vi...', Array, true)
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(16): view('log_activity_vi...', Array)
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+CRITICAL - 2025-03-28 21:47:49 --> syntax error, unexpected 'protected' (T_PROTECTED), expecting ';' or '{'
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('H:\\My Drive\\fas...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_be...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_be...')
+#3 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(14): spl_autoload_call('App\\Models\\M_be...')
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-03-28 21:49:28 --> Cannot redeclare App\Models\M_belajar::$table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-28 21:51:02 --> syntax error, unexpected 'protected' (T_PROTECTED), expecting '{'
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('H:\\My Drive\\fas...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_be...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_be...')
+#3 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(14): spl_autoload_call('App\\Models\\M_be...')
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-03-28 21:58:09 --> Call to a member function log_activity() on null
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-03-28 22:29:48 --> Unknown column 'created_at' in 'order clause'
+CRITICAL - 2025-03-28 22:29:48 --> Call to a member function getResult() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 H:\My Drive\fastfood\fastfoodbaru\app\Models\M_belajar.php(23): CodeIgniter\BaseModel->findAll()
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(15): App\Models\M_belajar->getLogs()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-03-28 22:31:06 --> Unknown column 'created_at' in 'order clause'
+CRITICAL - 2025-03-28 22:31:06 --> Call to a member function getResult() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 H:\My Drive\fastfood\fastfoodbaru\app\Models\M_belajar.php(23): CodeIgniter\BaseModel->findAll()
+#2 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(15): App\Models\M_belajar->getLogs()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#8 {main}
+ERROR - 2025-03-28 22:31:16 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2025-03-28 22:31:16 --> Call to a member function getRow() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-03-28 22:43:10 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2025-03-28 22:43:10 --> Call to a member function getRow() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+ERROR - 2025-03-28 22:44:39 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2025-03-28 22:44:39 --> Call to a member function getFirstRow() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(313): CodeIgniter\BaseModel->first()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+ERROR - 2025-03-28 22:47:17 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2025-03-28 22:47:17 --> Call to a member function getFirstRow() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(313): CodeIgniter\BaseModel->first()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+ERROR - 2025-03-28 22:48:48 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2025-03-28 22:48:48 --> Call to a member function getFirstRow() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(313): CodeIgniter\BaseModel->first()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+ERROR - 2025-03-28 22:50:35 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2025-03-28 22:50:35 --> Call to a member function getFirstRow() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(316): CodeIgniter\BaseModel->first()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+ERROR - 2025-03-28 22:53:26 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2025-03-28 22:53:26 --> Call to a member function getFirstRow() on bool
+#0 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(328): CodeIgniter\BaseModel->first()
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#7 {main}
+CRITICAL - 2025-03-28 22:55:08 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('H:\\My Drive\\fas...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_be...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_be...')
+#3 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(292): spl_autoload_call('App\\Models\\M_be...')
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-03-28 22:55:13 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('H:\\My Drive\\fas...')
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_be...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_be...')
+#3 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(292): spl_autoload_call('App\\Models\\M_be...')
+#4 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#9 {main}
+CRITICAL - 2025-03-28 23:03:27 --> Class 'App\Controllers\M_user' not found
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-28 23:04:44 --> Class 'App\Controllers\M_user' not found
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-28 23:04:49 --> Class 'App\Controllers\M_user' not found
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-28 23:05:19 --> Class 'App\Controllers\M_user' not found
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}
+CRITICAL - 2025-03-28 23:08:49 --> Cannot redeclare App\Models\M_belajar::$table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-28 23:12:53 --> Class 'App\Controllers\M_user' not found
+#0 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#5 {main}

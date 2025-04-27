@@ -1,0 +1,25 @@
+CRITICAL - 2025-04-22 22:29:10 --> syntax error, unexpected 'endif' (T_ENDIF)
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('jadwal_kunjunga...', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(325): view('jadwal_kunjunga...', Array)
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+CRITICAL - 2025-04-22 11:02:45 --> Class 'App\Controllers\PasienModel' not found
+#0 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#5 {main}
+CRITICAL - 2025-04-22 20:49:57 --> syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$'
+#0 H:\My Drive\klinlik\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/jadwal_kun...')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/jadwal_kun...')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}

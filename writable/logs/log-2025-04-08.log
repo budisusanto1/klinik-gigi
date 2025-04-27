@@ -1,0 +1,169 @@
+ERROR - 2025-04-08 09:48:52 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-08 09:48:53 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-08 09:50:43 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-08 09:50:43 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-08 09:51:08 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-08 09:51:08 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-08 09:51:13 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-08 09:51:14 --> Table 'klinik_gigi.pengaturan_app' doesn't exist
+CRITICAL - 2025-04-08 09:51:14 --> Call to a member function getRow() on bool
+#0 H:\My Drive\klinlik\fastfoodbaru\system\View\View.php(210): include()
+#1 H:\My Drive\klinlik\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\klinlik\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#3 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(49): view('header')
+#4 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#5 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#9 {main}
+ERROR - 2025-04-08 09:52:32 --> Table 'klinik_gigi.log_activity' doesn't exist
+CRITICAL - 2025-04-08 09:52:32 --> count(): Parameter must be an array or an object that implements Countable
+#0 H:\My Drive\klinlik\fastfoodbaru\app\Views\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'H:\\My Drive\\kli...', 16, Array)
+#1 H:\My Drive\klinlik\fastfoodbaru\system\View\View.php(210): include('H:\\My Drive\\kli...')
+#2 H:\My Drive\klinlik\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\klinlik\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(51): view('dashboard', Array)
+#5 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#6 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#10 {main}
+ERROR - 2025-04-08 09:52:54 --> Table 'klinik_gigi.log_activity' doesn't exist
+CRITICAL - 2025-04-08 09:52:54 --> count(): Parameter must be an array or an object that implements Countable
+#0 H:\My Drive\klinlik\fastfoodbaru\app\Views\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'H:\\My Drive\\kli...', 16, Array)
+#1 H:\My Drive\klinlik\fastfoodbaru\system\View\View.php(210): include('H:\\My Drive\\kli...')
+#2 H:\My Drive\klinlik\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\klinlik\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(51): view('dashboard', Array)
+#5 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#6 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#10 {main}
+ERROR - 2025-04-08 09:57:19 --> Table 'klinik_gigi.log_activity' doesn't exist
+CRITICAL - 2025-04-08 09:57:19 --> Call to undefined method App\Models\M_belajar::get_laporan_keuangan
+#0 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(54): CodeIgniter\Model->__call('get_laporan_keu...', Array)
+#1 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#2 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-08 09:58:31 --> Table 'klinik_gigi.log_activity' doesn't exist
+CRITICAL - 2025-04-08 09:58:31 --> count(): Parameter must be an array or an object that implements Countable
+#0 H:\My Drive\klinlik\fastfoodbaru\app\Views\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'H:\\My Drive\\kli...', 16, Array)
+#1 H:\My Drive\klinlik\fastfoodbaru\system\View\View.php(210): include('H:\\My Drive\\kli...')
+#2 H:\My Drive\klinlik\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\klinlik\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(65): view('dashboard', Array)
+#5 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#6 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#10 {main}
+ERROR - 2025-04-08 10:00:24 --> Table 'klinik_gigi.log_activity' doesn't exist
+CRITICAL - 2025-04-08 10:00:24 --> count(): Parameter must be an array or an object that implements Countable
+#0 H:\My Drive\klinlik\fastfoodbaru\app\Views\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'H:\\My Drive\\kli...', 16, Array)
+#1 H:\My Drive\klinlik\fastfoodbaru\system\View\View.php(210): include('H:\\My Drive\\kli...')
+#2 H:\My Drive\klinlik\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\klinlik\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(65): view('dashboard', Array)
+#5 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#6 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#10 {main}
+ERROR - 2025-04-08 10:03:24 --> Table 'klinik_gigi.log_activity' doesn't exist
+CRITICAL - 2025-04-08 10:03:24 --> Invalid file: dashboard.php
+#0 H:\My Drive\klinlik\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 H:\My Drive\klinlik\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(65): view('dashboard', Array)
+#3 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#4 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+ERROR - 2025-04-08 10:03:49 --> Table 'klinik_gigi.log_activity' doesn't exist
+CRITICAL - 2025-04-08 10:03:49 --> Invalid file: dashboard_admin.php
+#0 H:\My Drive\klinlik\fastfoodbaru\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard_admin...')
+#1 H:\My Drive\klinlik\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_admin', Array, true)
+#2 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(65): view('dashboard_admin', Array)
+#3 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#4 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}
+ERROR - 2025-04-08 10:09:03 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-08 10:10:55 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-08 10:10:56 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-08 10:10:57 --> Table 'klinik_gigi.log_activity' doesn't exist
+CRITICAL - 2025-04-08 10:10:57 --> Call to undefined method App\Models\M_belajar::getDokter
+#0 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(53): CodeIgniter\Model->__call('getDokter', Array)
+#1 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#2 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-08 10:11:42 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-08 10:11:42 --> Table 'klinik_gigi.orders' doesn't exist
+CRITICAL - 2025-04-08 10:11:42 --> Call to a member function getResultArray() on bool
+#0 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(55): App\Models\M_belajar->getLaporanKeuangan()
+#1 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->hai()
+#2 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-08 11:21:39 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-08 11:21:44 --> Table 'klinik_gigi.log_activity' doesn't exist
+ERROR - 2025-04-08 21:28:24 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2025-04-08 21:28:24 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(1016): App\Models\M_belajar->tampil_active_no_sort('user', 'id_user', Array)
+#1 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-08 21:46:18 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2025-04-08 21:46:18 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(1016): App\Models\M_belajar->tampil_active_no_sort('user', 'id_user', Array)
+#1 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-08 21:51:01 --> Unknown column 'status' in 'where clause'
+ERROR - 2025-04-08 21:51:01 --> Query gagal: SELECT *
+FROM `user`
+WHERE `status` IS NULL
+ORDER BY `id_user` DESC
+ERROR - 2025-04-08 21:51:01 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2025-04-08 21:51:01 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(1017): App\Models\M_belajar->get_deleted_items_no_sort('user', 'id_user')
+#1 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-08 22:01:38 --> Table 'klinik_gigi.log_activity' doesn't exist
+CRITICAL - 2025-04-08 22:01:38 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\fastfoodbaru\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 H:\My Drive\klinlik\fastfoodbaru\app\Models\M_belajar.php(24): CodeIgniter\BaseModel->findAll()
+#2 H:\My Drive\klinlik\fastfoodbaru\app\Controllers\Home.php(21): App\Models\M_belajar->getLogs()
+#3 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#4 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}

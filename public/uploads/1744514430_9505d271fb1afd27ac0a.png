@@ -1,0 +1,66 @@
+digraph FastFoodDeliverySystem {
+	Customer [label="Customer
+-----------------
++ ID: Integer
++ Name: String
++ BirthDate: Date
++ Address: String
++ Phone: String
++ Email: String
++ Gender: String" shape=record]
+	Employee [label="Employee
+-----------------
++ ID: Integer
++ Name: String
++ BirthDate: Date
++ Address: String
++ Phone: String
++ Email: String
++ Gender: String
++ Role: String" shape=record]
+	Driver [label="Driver
+-----------------
++ ID: Integer
++ Name: String
++ Phone: String
++ VehicleInfo: String" shape=record]
+	Restaurant [label="Restaurant
+-----------------
++ ID: Integer
++ Name: String
++ Address: String
++ Phone: String" shape=record]
+	Menu [label="Menu
+-----------------
++ ID: Integer
++ Name: String
++ Category: String
++ Price: Float" shape=record]
+	Order [label="Order
+-----------------
++ ID: Integer
++ CustomerID: Integer
++ RestaurantID: Integer
++ DriverID: Integer
++ OrderDate: Date
++ TotalPrice: Float" shape=record]
+	OrderDetail [label="OrderDetail
+-----------------
++ OrderID: Integer
++ MenuID: Integer
++ Quantity: Integer" shape=record]
+	Payment [label="Payment
+-----------------
++ ID: Integer
++ OrderID: Integer
++ Method: String
++ Status: String" shape=record]
+	Customer -> Order [label=places]
+	Order -> Restaurant [label=from]
+	Order -> Driver [label="delivered by"]
+	Order -> OrderDetail [label=contains]
+	OrderDetail -> Menu [label=includes]
+	Order -> Payment [label="paid with"]
+	Restaurant -> Menu [label=offers]
+	Employee -> Restaurant [label="works at"]
+}

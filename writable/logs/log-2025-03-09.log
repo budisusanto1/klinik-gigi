@@ -1,0 +1,24 @@
+CRITICAL - 2025-03-09 22:16:42 --> Undefined property: stdClass::$status_restoran
+#0 I:\My Drive\fastfood\fastfoodbaru\app\Views\menu1.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'I:\\My Drive\\fas...', 30)
+#1 I:\My Drive\fastfood\fastfoodbaru\system\View\View.php(210): include('I:\\My Drive\\fas...')
+#2 I:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 I:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('menu1', Array, true)
+#4 I:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(275): view('menu1', Array)
+#5 I:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_menu()
+#6 I:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 I:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 I:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 I:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\fas...')
+#10 {main}
+CRITICAL - 2025-03-09 22:50:45 --> Undefined property: stdClass::$status_restoran
+#0 I:\My Drive\fastfood\fastfoodbaru\app\Views\menu1.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'I:\\My Drive\\fas...', 30)
+#1 I:\My Drive\fastfood\fastfoodbaru\system\View\View.php(210): include('I:\\My Drive\\fas...')
+#2 I:\My Drive\fastfood\fastfoodbaru\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 I:\My Drive\fastfood\fastfoodbaru\system\Common.php(1089): CodeIgniter\View\View->render('menu1', Array, true)
+#4 I:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(275): view('menu1', Array)
+#5 I:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->daftar_menu()
+#6 I:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 I:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 I:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 I:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\fas...')
+#10 {main}

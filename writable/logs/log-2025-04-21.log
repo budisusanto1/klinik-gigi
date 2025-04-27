@@ -1,0 +1,48 @@
+CRITICAL - 2025-04-21 20:55:08 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in H:\My Drive\klinlik\klinik\app\Models\M_belajar.php on line 130
+#0 H:\My Drive\klinlik\klinik\app\Models\M_belajar.php(130): CodeIgniter\Database\BaseBuilder->orderBy(Array, 'desc')
+#1 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(305): App\Models\M_belajar->join5('booking', 'layanan', 'dokter', 'jadwal', 'pasien', 'booking.id_laya...', 'booking.id_dokt...', 'booking.id_jadw...', 'booking.id_pasi...', Array, 'booking.id_book...', 'DESC')
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#7 {main}
+CRITICAL - 2025-04-21 20:55:58 --> syntax error, unexpected ')', expecting variable (T_VARIABLE)
+#0 H:\My Drive\klinlik\klinik\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('H:\\My Drive\\kli...')
+#1 H:\My Drive\klinlik\klinik\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_be...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_be...')
+#3 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(286): spl_autoload_call('App\\Models\\M_be...')
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#9 {main}
+ERROR - 2025-04-21 20:56:36 --> Unknown column 'dokter.id_dokter' in 'on clause'
+CRITICAL - 2025-04-21 20:56:36 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(305): App\Models\M_belajar->join5('booking', 'layanan', 'dokter', 'jadwal', 'pasien', 'booking.id_laya...', 'booking.id_dokt...', 'booking.id_jadw...', 'booking.id_pasi...', Array, 'booking.id_book...', 'DESC')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+ERROR - 2025-04-21 20:57:28 --> Unknown column 'dokter.id_dokter' in 'on clause'
+CRITICAL - 2025-04-21 20:57:28 --> Call to a member function getResult() on bool
+#0 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(305): App\Models\M_belajar->join5('booking', 'layanan', 'dokter', 'jadwal', 'pasien', 'booking.id_laya...', 'booking.id_dokt...', 'booking.id_jadw...', 'booking.id_pasi...', Array, 'booking.id_book...', 'DESC')
+#1 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->jadwal_kunjungan()
+#2 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#6 {main}
+CRITICAL - 2025-04-21 23:00:40 --> Invalid file: dashboard.php
+#0 H:\My Drive\klinlik\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 H:\My Drive\klinlik\klinik\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 H:\My Drive\klinlik\klinik\app\Controllers\Home.php(16): view('dashboard')
+#3 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\klinlik\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\klinlik\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\klinlik\klinik\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\kli...')
+#8 {main}

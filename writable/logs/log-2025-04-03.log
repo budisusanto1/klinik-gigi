@@ -1,0 +1,18 @@
+ERROR - 2025-04-03 20:53:57 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-04-03 20:53:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 H:\My Drive\fastfood\fastfoodbaru\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 H:\My Drive\fastfood\fastfoodbaru\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#2 H:\My Drive\fastfood\fastfoodbaru\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 H:\My Drive\fastfood\fastfoodbaru\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 H:\My Drive\fastfood\fastfoodbaru\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 H:\My Drive\fastfood\fastfoodbaru\app\Models\M_belajar.php(38): CodeIgniter\Model->insert(Array)
+#6 H:\My Drive\fastfood\fastfoodbaru\app\Controllers\Home.php(345): App\Models\M_belajar->log_activity(NULL, 'Guest', 'Percobaan login...')
+#7 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#8 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 H:\My Drive\fastfood\fastfoodbaru\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 H:\My Drive\fastfood\fastfoodbaru\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 H:\My Drive\fastfood\fastfoodbaru\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\fas...')
+#12 {main}
